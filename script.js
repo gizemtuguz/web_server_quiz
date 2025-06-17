@@ -3,14 +3,9 @@ let currentQuestionIndex = 0;
 let score = 0;
 
 async function loadQuestions() {
-  try {
-    const res = await fetch("quiz_questions.json");
-    questions = await res.json();
-    showQuestion();
-  } catch (err) {
-    console.error("Failed to load questions:", err);
-    document.getElementById("quiz-box").innerHTML = "<p>Could not load quiz questions.</p>";
-  }
+  const res = await fetch("quiz_questions.json");
+  questions = await res.json();
+  showQuestion();
 }
 
 function showQuestion() {
@@ -44,21 +39,24 @@ function selectAnswer(button, isCorrect) {
     });
   }
 
-  setTimeout(() => {
-    currentQuestionIndex++;
-    if (currentQuestionIndex < questions.length) {
-      showQuestion();
-    } else {
-      showResult();
-    }
-  }, 1000); // 1 saniye bekleyip geç
+  document.getElementById("next-btn").style.display = "block";
 }
+
+document.getElementById("next-btn").addEventListener("click", () => {
+  currentQuestionIndex++;
+  document.getElementById("next-btn").style.display = "none";
+
+  if (currentQuestionIndex < questions.length) {
+    showQuestion();
+  } else {
+    showResult();
+  }
+});
 
 function showResult() {
   document.getElementById("quiz-box").classList.add("hidden");
   document.getElementById("result-box").classList.remove("hidden");
-  document.getElementById("score-text").textContent =
-    `You got ${score} out of ${questions.length} correct.`;
+  document.getElementById("score-text").textContent = `You got ${score} out of ${questions.length} questions correct.`;
 }
 
 loadQuestions();
