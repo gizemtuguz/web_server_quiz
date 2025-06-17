@@ -2,6 +2,13 @@ let questions = [];
 let currentQuestionIndex = 0;
 let score = 0;
 
+function shuffleArray(array) {
+  for (let i = array.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [array[i], array[j]] = [array[j], array[i]];
+  }
+}
+
 async function loadQuestions() {
   const res = await fetch("quiz_questions.json");
   questions = await res.json();
@@ -24,8 +31,8 @@ function showQuestion() {
   updateURL();
 
   const question = questions[currentQuestionIndex];
-  document.getElementById("question").textContent = `${question.id}. ${question.question}`;
-  
+  document.getElementById("question").textContent = ` ${question.question}`;
+
   const optionsContainer = document.getElementById("options");
   optionsContainer.innerHTML = "";
 
@@ -71,6 +78,13 @@ document.getElementById("prev-btn").addEventListener("click", () => {
     currentQuestionIndex--;
     showQuestion();
   }
+});
+
+document.getElementById("shuffle-btn").addEventListener("click", () => {
+  shuffleArray(questions);
+  currentQuestionIndex = 0;
+  score = 0;
+  showQuestion();
 });
 
 function showResult() {

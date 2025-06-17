@@ -2,26 +2,30 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>REST API Quiz</title>
+  <title>Web Server Final Quiz</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <div class="quiz-container">
-    <h1>REST API Quiz</h1>
+    <h1>Web Server Final Quiz</h1>
     <div id="quiz-box">
       <div id="question"></div>
       <div id="options"></div>
+
       <div class="nav-buttons">
-        <button id="prev-btn">Previous</button>
-        <button id="next-btn">Next</button>
+        <button id="shuffle-btn">🔀 Shuffle</button>
+        <button id="prev-btn">⬅ Previous</button>
+        <button id="next-btn">Next ➡</button>
       </div>
     </div>
+
     <div id="result-box" class="hidden">
       <h2>Quiz Completed!</h2>
       <p id="score-text"></p>
       <button onclick="location.href='?q=1'">Restart</button>
     </div>
   </div>
+
   <script src="script.js"></script>
 </body>
 </html>
