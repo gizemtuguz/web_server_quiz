@@ -1,0 +1,992 @@
+[
+    {
+      "id": 1,
+      "question": "What is the main characteristic of a RESTful system?",
+      "options": {
+        "A": "Uses FTP for communication",
+        "B": "Maintains session state",
+        "C": "Stateless communication",
+        "D": "Requires SOAP"
+      },
+      "correctAnswer": "C"
+    },
+    {
+      "id": 2,
+      "question": "Which HTTP method is used to retrieve data from a RESTful API?",
+      "options": {
+        "A": "POST",
+        "B": "PUT",
+        "C": "DELETE",
+        "D": "GET"
+      },
+      "correctAnswer": "D"
+    },
+    {
+      "id": 3,
+      "question": "What format is typically used by REST APIs to exchange data?",
+      "options": {
+        "A": "XML",
+        "B": "CSV",
+        "C": "JSON",
+        "D": "YAML"
+      },
+      "correctAnswer": "C"
+    },
+    {
+      "id": 4,
+      "question": "Which attribute should be used in ASP.NET Core to indicate an API controller?",
+      "options": {
+        "A": "[Controller]",
+        "B": "[ApiController]",
+        "C": "[WebAPI]",
+        "D": "[HttpClass]"
+      },
+      "correctAnswer": "B"
+    },
+    {
+      "id": 5,
+      "question": "What is the purpose of the HttpPost attribute in ASP.NET Core?",
+      "options": {
+        "A": "Retrieves resources",
+        "B": "Deletes a resource",
+        "C": "Creates a new resource",
+        "D": "Updates an existing resource"
+      },
+      "correctAnswer": "C"
+    },
+    {
+      "id": 6,
+      "question": "What will happen if id != task.ID in a PUT request?",
+      "options": {
+        "A": "The item will be created",
+        "B": "A NotFound response is returned",
+        "C": "The item is added to the list",
+        "D": "A BadRequest response is returned"
+      },
+      "correctAnswer": "D"
+    },
+    {
+      "id": 7,
+      "question": "What does the following JSON represent?\njson\nKopyalaDüzenle\n{\n  \"id\": 2,\n  \"title\": \"Buy groceries\",\n  \"isCompleted\": false\n}",
+      "options": {
+        "A": "A database schema",
+        "B": "A JavaScript class",
+        "C": "A task object",
+        "D": "A GET request"
+      },
+      "correctAnswer": "C"
+    },
+    {
+      "id": 8,
+      "question": "What must be done in Global.asax to enable Web API routing?",
+      "options": {
+        "A": "Call EnableWebApi()",
+        "B": "Add WebApi.Register()",
+        "C": "Configure RouteConfig.cs",
+        "D": "Call GlobalConfiguration.Configure()"
+      },
+      "correctAnswer": "D"
+    },
+    {
+      "id": 9,
+      "question": "In the in-memory ToDo list, how is a new item ID determined?",
+      "options": {
+        "A": "Random number generator",
+        "B": "By counting completed tasks",
+        "C": "One more than the highest ID",
+        "D": "Assigned manually"
+      },
+      "correctAnswer": "C"
+    },
+    {
+      "id": 10,
+      "question": "Which line in the jQuery script adds a new task to the API?",
+      "options": {
+        "A": "$.get()",
+        "B": "$.delete()",
+        "C": "$.ajax({ type: \"POST\" })",
+        "D": "$(\"#taskContainer\").html()"
+      },
+      "correctAnswer": "C"
+    },
+    {
+      "id": 11,
+      "question": "What does the PUT method do in the Web API example when updating a task?",
+      "options": {
+        "A": "Deletes the existing task",
+        "B": "Adds a duplicate task",
+        "C": "Replaces text and status of a matched task",
+        "D": "Only updates the task ID"
+      },
+      "correctAnswer": "C"
+    },
+    {
+      "id": 12,
+      "question": "Why is config.MapHttpAttributeRoutes() used in WebApiConfig.cs?",
+      "options": {
+        "A": "To enable JavaScript API calls",
+        "B": "To define classic routing only",
+        "C": "To allow routing based on controller names",
+        "D": "To activate attribute-based routing"
+      },
+      "correctAnswer": "D"
+    },
+    {
+      "id": 13,
+      "question": "What happens when a GET request is made to /api/ToDo/999 and the item doesn’t exist?",
+      "options": {
+        "A": "An exception is thrown",
+        "B": "A new item is created",
+        "C": "NotFound() is returned",
+        "D": "The server shuts down"
+      },
+      "correctAnswer": "C"
+    },
+    {
+      "id": 14,
+      "question": "In the jQuery toggleTask() function, why might Text be passed as an empty string?",
+      "options": {
+        "A": "Because it will be ignored in the update",
+        "B": "It triggers a new task creation",
+        "C": "PUT does not require any fields",
+        "D": "It forces deletion"
+      },
+      "correctAnswer": "A"
+    },
+    {
+      "id": 15,
+      "question": "What is the purpose of [FromBody] in the API controller method parameters?",
+      "options": {
+        "A": "Extracts values from the URL",
+        "B": "Indicates optional parameters",
+        "C": "Deserializes JSON from request body",
+        "D": "Binds to a file input"
+      },
+      "correctAnswer": "C"
+    },
+    {
+      "id": 16,
+      "question": "What does API Consumption mean?",
+      "options": {
+        "A": "Designing user interfaces",
+        "B": "Using external services to exchange data",
+        "C": "Hosting a website",
+        "D": "Writing backend code only"
+      },
+      "correctAnswer": "B"
+    },
+    {
+      "id": 17,
+      "question": "What does the Fetch API return?",
+      "options": {
+        "A": "A string",
+        "B": "A JSON file directly",
+        "C": "A Promise",
+        "D": "An XML document"
+      },
+      "correctAnswer": "C"
+    },
+    {
+      "id": 18,
+      "question": "Which of the following is a correct HTTP method for deleting data?",
+      "options": {
+        "A": "PATCH",
+        "B": "DELETE",
+        "C": "CONNECT",
+        "D": "COPY"
+      },
+      "correctAnswer": "B"
+    },
+    {
+      "id": 19,
+      "question": "Which method is considered more modern for HTTP requests in JavaScript?",
+      "options": {
+        "A": "jQuery.ajax()",
+        "B": "XMLHttpRequest",
+        "C": "Fetch API",
+        "D": "SOAP"
+      },
+      "correctAnswer": "C"
+    },
+    {
+      "id": 20,
+      "question": "What is one major benefit of using frameworks like React or Angular?",
+      "options": {
+        "A": "They require no installation",
+        "B": "They eliminate the need for HTML",
+        "C": "They simplify frontend and API integration",
+        "D": "They only work with SQL databases"
+      },
+      "correctAnswer": "C"
+    },
+    {
+      "id": 21,
+      "question": "Which statement about Fetch API is FALSE?",
+      "options": {
+        "A": "It supports Promise-based syntax",
+        "B": "It allows progress tracking",
+        "C": "It’s supported by modern browsers",
+        "D": "It’s easier to handle JSON responses"
+      },
+      "correctAnswer": "B"
+    },
+    {
+      "id": 22,
+      "question": "What is the purpose of useEffect() in the React API integration example?",
+      "options": {
+        "A": "To initialize database connections",
+        "B": "To style components",
+        "C": "To fetch data after the component is rendered",
+        "D": "To change the DOM manually"
+      },
+      "correctAnswer": "C"
+    },
+    {
+      "id": 23,
+      "question": "What does Angular use to fetch data in the service example?",
+      "options": {
+        "A": "fetch()",
+        "B": "XMLHttpRequest",
+        "C": "$.ajax",
+        "D": "HttpClient"
+      },
+      "correctAnswer": "D"
+    },
+    {
+      "id": 24,
+      "question": "In the HTML + Fetch API example, where is the list of users displayed?",
+      "options": {
+        "A": "In a table element",
+        "B": "Inside the <body> tag",
+        "C": "In the #user-list div",
+        "D": "In a modal popup"
+      },
+      "correctAnswer": "C"
+    },
+    {
+      "id": 25,
+      "question": "What is the command to start a React app created using create-react-app?",
+      "options": {
+        "A": "react run",
+        "B": "npm start",
+        "C": "run react",
+        "D": "start react"
+      },
+      "correctAnswer": "B"
+    },
+    {
+      "id": 26,
+      "question": "Which of the following is a major disadvantage of using jQuery’s ajax()?",
+      "options": {
+        "A": "It cannot handle JSON",
+        "B": "It lacks support for HTTP",
+        "C": "It is synchronous only",
+        "D": "Cross-domain issues and complex JSON handling"
+      },
+      "correctAnswer": "D"
+    },
+    {
+      "id": 27,
+      "question": "Which line in the Angular example actually subscribes to the API call?",
+      "options": {
+        "A": "return this.http.get(this.apiUrl);",
+        "B": "this.posts = data;",
+        "C": "this.postService.getPosts().subscribe(...)",
+        "D": "template: '<div></div>'"
+      },
+      "correctAnswer": "C"
+    },
+    {
+      "id": 28,
+      "question": "In the React example, which property is used as a unique key when listing posts?",
+      "options": {
+        "A": "post.title",
+        "B": "post.body",
+        "C": "post.id",
+        "D": "post.key"
+      },
+      "correctAnswer": "C"
+    },
+    {
+      "id": 29,
+      "question": "In the fetch example script.js, which DOM method creates a new user element?",
+      "options": {
+        "A": "appendChild()",
+        "B": "querySelector()",
+        "C": "setTimeout()",
+        "D": "map()"
+      },
+      "correctAnswer": "A"
+    },
+    {
+      "id": 30,
+      "question": "Why is React considered faster than Angular in rendering?",
+      "options": {
+        "A": "React compiles to machine code",
+        "B": "React modifies the real DOM directly",
+        "C": "React uses a virtual DOM",
+        "D": "Angular uses Java instead of JavaScript"
+      },
+      "correctAnswer": "C"
+    },
+    {
+      "id": 31,
+      "question": "What does state management help with in web applications?",
+      "options": {
+        "A": "Changing CSS dynamically",
+        "B": "Maintaining user information between requests",
+        "C": "Increasing server CPU speed",
+        "D": "Editing HTML templates"
+      },
+      "correctAnswer": "B"
+    },
+    {
+      "id": 32,
+      "question": "Where is the ViewState data stored?",
+      "options": {
+        "A": "On the server file system",
+        "B": "In a database",
+        "C": "Inside the web page HTML",
+        "D": "In cookies"
+      },
+      "correctAnswer": "C"
+    },
+    {
+      "id": 33,
+      "question": "Which of the following is a common way to pass data in a URL?",
+      "options": {
+        "A": "Cookies",
+        "B": "ViewState",
+        "C": "Session",
+        "D": "Query String"
+      },
+      "correctAnswer": "D"
+    },
+    {
+      "id": 34,
+      "question": "Which state management option stores data in the client's browser hard drive?",
+      "options": {
+        "A": "ViewState",
+        "B": "Cookies",
+        "C": "Session",
+        "D": "Server Cache"
+      },
+      "correctAnswer": "B"
+    },
+    {
+      "id": 35,
+      "question": "What does Session.Abandon() do?",
+      "options": {
+        "A": "Restarts the server",
+        "B": "Deletes cookies",
+        "C": "Ends the current user’s session",
+        "D": "Clears the page view state"
+      },
+      "correctAnswer": "C"
+    },
+    {
+      "id": 36,
+      "question": "What is the main disadvantage of ViewState?",
+      "options": {
+        "A": "It cannot store numbers",
+        "B": "It only works in Chrome",
+        "C": "It increases HTML page size",
+        "D": "It requires server-side setup"
+      },
+      "correctAnswer": "C"
+    },
+    {
+      "id": 37,
+      "question": "How do you retrieve a value from ViewState?",
+      "options": {
+        "A": "Request.QueryString[\"key\"]",
+        "B": "Session[\"key\"]",
+        "C": "this.ViewState[\"key\"]",
+        "D": "Cookie[\"key\"]"
+      },
+      "correctAnswer": "C"
+    },
+    {
+      "id": 38,
+      "question": "In ASP.NET, what is required to persist member variables using ViewState?",
+      "options": {
+        "A": "Store in Page_Load only",
+        "B": "Store in PreRender and restore in Page_Load",
+        "C": "Store in HTML form",
+        "D": "Declare variables globally"
+      },
+      "correctAnswer": "B"
+    },
+    {
+      "id": 39,
+      "question": "What happens if a user disables cookies in their browser?",
+      "options": {
+        "A": "The website stops loading",
+        "B": "Session state stops working",
+        "C": "Cookie-based features won’t work",
+        "D": "ViewState is lost"
+      },
+      "correctAnswer": "C"
+    },
+    {
+      "id": 40,
+      "question": "What does the following code do?\ncsharp\nKopyalaDüzenle\nHttpCookie cookie = new HttpCookie(\"username\");  \ncookie.Expires = DateTime.Now.AddDays(-1);  \nResponse.Cookies.Add(cookie);",
+      "options": {
+        "A": "Creates a cookie for login",
+        "B": "Updates a cookie’s value",
+        "C": "Deletes a cookie",
+        "D": "Reads a cookie"
+      },
+      "correctAnswer": "C"
+    },
+    {
+      "id": 41,
+      "question": "Which method securely stores complex objects between user requests?",
+      "options": {
+        "A": "Query string",
+        "B": "ViewState",
+        "C": "Cookies",
+        "D": "Session state"
+      },
+      "correctAnswer": "D"
+    },
+    {
+      "id": 42,
+      "question": "What is a limitation of query strings?",
+      "options": {
+        "A": "They work only with cookies",
+        "B": "They are hidden from the user",
+        "C": "They can be edited by the user",
+        "D": "They can store large binary files"
+      },
+      "correctAnswer": "C"
+    },
+    {
+      "id": 43,
+      "question": "What is the biggest risk of storing too much data in ViewState?",
+      "options": {
+        "A": "The server may crash",
+        "B": "Data may be encrypted",
+        "C": "It slows down page load and increases size",
+        "D": "The data disappears on reload"
+      },
+      "correctAnswer": "C"
+    },
+    {
+      "id": 44,
+      "question": "Which of the following scenarios requires session state?",
+      "options": {
+        "A": "Displaying a label",
+        "B": "Showing static HTML",
+        "C": "Tracking a user’s shopping cart",
+        "D": "Changing font size"
+      },
+      "correctAnswer": "C"
+    },
+    {
+      "id": 45,
+      "question": "Why should you check for null before reading a cookie or session value?",
+      "options": {
+        "A": "They never exist",
+        "B": "They are read-only",
+        "C": "They can be missing or deleted",
+        "D": "They contain multiple objects"
+      },
+      "correctAnswer": "C"
+    },
+    {
+      "id": 46,
+      "question": "What is the file extension of an ASP.NET user control?",
+      "options": {
+        "A": ".aspx",
+        "B": ".ascx",
+        "C": ".html",
+        "D": ".cs"
+      },
+      "correctAnswer": "B"
+    },
+    {
+      "id": 47,
+      "question": "What is the purpose of a Master Page in ASP.NET?",
+      "options": {
+        "A": "To store session data",
+        "B": "To define a common layout structure for multiple pages",
+        "C": "To hold database connections",
+        "D": "To style controls with CSS"
+      },
+      "correctAnswer": "B"
+    },
+    {
+      "id": 48,
+      "question": "Which control is used to display tabular data in ASP.NET?",
+      "options": {
+        "A": "ListBox",
+        "B": "DropDownList",
+        "C": "GridView",
+        "D": "Calendar"
+      },
+      "correctAnswer": "C"
+    },
+    {
+      "id": 49,
+      "question": "What must you call after assigning a data source to a control to display data?",
+      "options": {
+        "A": "Refresh()",
+        "B": "Display()",
+        "C": "DataBind()",
+        "D": "Execute()"
+      },
+      "correctAnswer": "C"
+    },
+    {
+      "id": 50,
+      "question": "Which type of style sheet is stored in a separate file?",
+      "options": {
+        "A": "Inline style",
+        "B": "Internal style",
+        "C": "External style",
+        "D": "Local style"
+      },
+      "correctAnswer": "C"
+    },
+    {
+      "id": 51,
+      "question": "Which of the following is TRUE about user controls?",
+      "options": {
+        "A": "They can be accessed directly via URL",
+        "B": "They don’t support code-behind",
+        "C": "They must be embedded in web pages",
+        "D": "Their extension is .master"
+      },
+      "correctAnswer": "C"
+    },
+    {
+      "id": 52,
+      "question": "What are the two main categories of data-related controls in ASP.NET?",
+      "options": {
+        "A": "Input and Output",
+        "B": "Grid and List",
+        "C": "Display and Access",
+        "D": "Local and Remote"
+      },
+      "correctAnswer": "C"
+    },
+    {
+      "id": 53,
+      "question": "Which method should be used to retrieve the first column of the first row from a query?",
+      "options": {
+        "A": "ExecuteReader()",
+        "B": "ExecuteNonQuery()",
+        "C": "ExecuteScalar()",
+        "D": "ExecuteSingle()"
+      },
+      "correctAnswer": "C"
+    },
+    {
+      "id": 54,
+      "question": "Where should themes be stored in an ASP.NET project?",
+      "options": {
+        "A": "/Assets",
+        "B": "/Themes",
+        "C": "/App_Themes",
+        "D": "/StyleSheets"
+      },
+      "correctAnswer": "C"
+    },
+    {
+      "id": 55,
+      "question": "Which field type displays data as simple text in GridView?",
+      "options": {
+        "A": "TemplateField",
+        "B": "BoundField",
+        "C": "HyperLinkField",
+        "D": "ButtonField"
+      },
+      "correctAnswer": "B"
+    },
+    {
+      "id": 56,
+      "question": "What is the correct way to read each row using a DataReader?",
+      "options": {
+        "A": "While(reader.HasNext())",
+        "B": "While(reader.Read())",
+        "C": "ForEach(reader in rows)",
+        "D": "Do(reader.Next())"
+      },
+      "correctAnswer": "B"
+    },
+    {
+      "id": 57,
+      "question": "What distinguishes a theme from CSS in ASP.NET?",
+      "options": {
+        "A": "Themes are client-side only",
+        "B": "CSS can modify server control properties",
+        "C": "Themes can access ASP.NET control properties beyond style",
+        "D": "Themes are used only in mobile apps"
+      },
+      "correctAnswer": "C"
+    },
+    {
+      "id": 58,
+      "question": "What is the main advantage of using ExecuteNonQuery()?",
+      "options": {
+        "A": "It returns an entire data table",
+        "B": "It’s used for SELECT queries",
+        "C": "It modifies data without returning records",
+        "D": "It formats the output automatically"
+      },
+      "correctAnswer": "C"
+    },
+    {
+      "id": 59,
+      "question": "In the DataReader example, what is required after calling reader.Read()?",
+      "options": {
+        "A": "Refresh the browser",
+        "B": "Use Read() again in a loop",
+        "C": "Commit the transaction",
+        "D": "Close the connection immediately"
+      },
+      "correctAnswer": "B"
+    },
+    {
+      "id": 60,
+      "question": "Which method binds all controls on a page at once?",
+      "options": {
+        "A": "Page.BindAll()",
+        "B": "Page.DataBind()",
+        "C": "DataControl.AutoBind()",
+        "D": "BindEverything()"
+      },
+      "correctAnswer": "B"
+    },
+    {
+      "id": 61,
+      "question": "What control is used to upload files in ASP.NET Web Forms?",
+      "options": {
+        "A": "TextBox",
+        "B": "FileUpload",
+        "C": "UploadBox",
+        "D": "FileBrowser"
+      },
+      "correctAnswer": "B"
+    },
+    {
+      "id": 62,
+      "question": "What attribute must be added to the <form> tag for file upload to work?",
+      "options": {
+        "A": "enctype=\"text/plain\"",
+        "B": "enctype=\"application/json\"",
+        "C": "enctype=\"multipart/form-data\"",
+        "D": "enctype=\"application/x-www-form-urlencoded\""
+      },
+      "correctAnswer": "C"
+    },
+    {
+      "id": 63,
+      "question": "What is the method used to save an uploaded file in ASP.NET?",
+      "options": {
+        "A": "StoreAs()",
+        "B": "Write()",
+        "C": "SaveAs()",
+        "D": "UploadTo()"
+      },
+      "correctAnswer": "C"
+    },
+    {
+      "id": 64,
+      "question": "Which file types are allowed in the example restriction logic?",
+      "options": {
+        "A": ".doc and .pdf",
+        "B": ".jpg and .png",
+        "C": ".exe and .bat",
+        "D": ".mp4 and .avi"
+      },
+      "correctAnswer": "B"
+    },
+    {
+      "id": 65,
+      "question": "What happens if fUp.HasFile is false?",
+      "options": {
+        "A": "The file is uploaded",
+        "B": "The upload directory is deleted",
+        "C": "A warning message is shown",
+        "D": "The image is resized"
+      },
+      "correctAnswer": "C"
+    },
+    {
+      "id": 66,
+      "question": "What tag is used to display the uploaded image on the page?",
+      "options": {
+        "A": "<asp:Image>",
+        "B": "<img>",
+        "C": "<asp:Picture>",
+        "D": "<image>"
+      },
+      "correctAnswer": "A"
+    },
+    {
+      "id": 67,
+      "question": "How do you check an uploaded file’s width and height in ASP.NET?",
+      "options": {
+        "A": "Use FileInfo",
+        "B": "Use Path",
+        "C": "Use System.Drawing.Image",
+        "D": "Use System.IO.Image"
+      },
+      "correctAnswer": "C"
+    },
+    {
+      "id": 68,
+      "question": "What is the function of Guid.NewGuid().ToString() in file uploads?",
+      "options": {
+        "A": "Compresses the file",
+        "B": "Encrypts the file",
+        "C": "Generates a unique filename",
+        "D": "Converts image to base64"
+      },
+      "correctAnswer": "C"
+    },
+    {
+      "id": 69,
+      "question": "What is the purpose of setting <httpRuntime maxRequestLength=\"4096\" />?",
+      "options": {
+        "A": "Disables upload control",
+        "B": "Limits session duration",
+        "C": "Restricts max upload file size",
+        "D": "Enables faster upload"
+      },
+      "correctAnswer": "C"
+    },
+    {
+      "id": 70,
+      "question": "Which folder is typically used to log upload activity in ASP.NET?",
+      "options": {
+        "A": "/Log",
+        "B": "/Uploads",
+        "C": "/Temp",
+        "D": "/App_Data"
+      },
+      "correctAnswer": "D"
+    },
+    {
+      "id": 71,
+      "question": "What does this code prevent? if (fileName.Contains(\"..\") || Path.IsPathRooted(fileName))",
+      "options": {
+        "A": "SQL injection",
+        "B": "Cross-site scripting",
+        "C": "Path traversal attacks",
+        "D": "MIME sniffing"
+      },
+      "correctAnswer": "C"
+    },
+    {
+      "id": 72,
+      "question": "What’s the advantage of storing uploaded files in the filesystem instead of a database?",
+      "options": {
+        "A": "More secure",
+        "B": "Easier to query",
+        "C": "Better for large file performance",
+        "D": "Easier to encrypt"
+      },
+      "correctAnswer": "C"
+    },
+    {
+      "id": 73,
+      "question": "What command would scan a file with ClamAV?",
+      "options": {
+        "A": "antivirus_scan()",
+        "B": "scanFile.exe",
+        "C": "clamscan filePath",
+        "D": "clam --upload"
+      },
+      "correctAnswer": "C"
+    },
+    {
+      "id": 74,
+      "question": "In code, what happens after calling fUp.SaveAs(fullPath)?",
+      "options": {
+        "A": "The file is deleted",
+        "B": "A virus scan runs automatically",
+        "C": "The file is written to the server",
+        "D": "File preview opens in browser"
+      },
+      "correctAnswer": "C"
+    },
+    {
+      "id": 75,
+      "question": "Which logging information should NOT be ignored?",
+      "options": {
+        "A": "Page title",
+        "B": "CSS file",
+        "C": "Uploaded file size and user IP",
+        "D": "Button color"
+      },
+      "correctAnswer": "C"
+    },
+    {
+      "id": 76,
+      "question": "What does logging in ASP.NET Core help with?",
+      "options": {
+        "A": "Styling the UI",
+        "B": "Monitoring application behavior and debugging",
+        "C": "Creating user accounts",
+        "D": "Compiling CSS files"
+      },
+      "correctAnswer": "B"
+    },
+    {
+      "id": 77,
+      "question": "Which method logs general application information?",
+      "options": {
+        "A": "LogCritical",
+        "B": "LogWarning",
+        "C": "LogInformation",
+        "D": "LogFatal"
+      },
+      "correctAnswer": "C"
+    },
+    {
+      "id": 78,
+      "question": "Which built-in provider writes logs to the console?",
+      "options": {
+        "A": "Debug",
+        "B": "EventLog",
+        "C": "Console",
+        "D": "TraceLog"
+      },
+      "correctAnswer": "C"
+    },
+    {
+      "id": 79,
+      "question": "What class do all exceptions inherit from?",
+      "options": {
+        "A": "System.Error",
+        "B": "BaseException",
+        "C": "System.Exception",
+        "D": "System.Fail"
+      },
+      "correctAnswer": "C"
+    },
+    {
+      "id": 80,
+      "question": "What does a try-catch block prevent in an application?",
+      "options": {
+        "A": "User registration",
+        "B": "UI updates",
+        "C": "Crashes due to unexpected errors",
+        "D": "Logging information"
+      },
+      "correctAnswer": "C"
+    },
+    {
+      "id": 81,
+      "question": "What log level is used for serious system failures?",
+      "options": {
+        "A": "LogInformation",
+        "B": "LogTrace",
+        "C": "LogCritical",
+        "D": "LogWarning"
+      },
+      "correctAnswer": "C"
+    },
+    {
+      "id": 82,
+      "question": "Where are log levels configured in ASP.NET Core?",
+      "options": {
+        "A": "web.config",
+        "B": "appsettings.json",
+        "C": "Startup.cs only",
+        "D": "Console window"
+      },
+      "correctAnswer": "B"
+    },
+    {
+      "id": 83,
+      "question": "What is the purpose of UseExceptionHandler(\"/Home/Error\")?",
+      "options": {
+        "A": "Redirects all logs to a controller",
+        "B": "Enables global error handling",
+        "C": "Creates a log file",
+        "D": "Deletes unhandled errors"
+      },
+      "correctAnswer": "B"
+    },
+    {
+      "id": 84,
+      "question": "In custom middleware, what does await next() do inside a try block?",
+      "options": {
+        "A": "Logs the error immediately",
+        "B": "Skips to the next controller",
+        "C": "Proceeds to the next middleware",
+        "D": "Resets the response stream"
+      },
+      "correctAnswer": "C"
+    },
+    {
+      "id": 85,
+      "question": "What does this line do? Log.Fatal(ex, \"The application terminated unexpectedly.\")",
+      "options": {
+        "A": "Sends an email to admin",
+        "B": "Logs a fatal exception",
+        "C": "Deletes temporary files",
+        "D": "Restarts the application"
+      },
+      "correctAnswer": "B"
+    },
+    {
+      "id": 86,
+      "question": "Which of the following is a benefit of structured logging in Serilog?",
+      "options": {
+        "A": "Compacts logs to one line",
+        "B": "Reduces file size",
+        "C": "Enables key-value searching and filtering",
+        "D": "Uses a lighter syntax"
+      },
+      "correctAnswer": "C"
+    },
+    {
+      "id": 87,
+      "question": "What is the file extension for NLog configuration files?",
+      "options": {
+        "A": ".json",
+        "B": ".config",
+        "C": ".log",
+        "D": ".xml"
+      },
+      "correctAnswer": "D"
+    },
+    {
+      "id": 88,
+      "question": "How do you integrate Serilog into an ASP.NET Core project?",
+      "options": {
+        "A": "UseLog()",
+        "B": "Log.Inject()",
+        "C": ".UseSerilog() in CreateHostBuilder",
+        "D": "Call LogView() in Startup.cs"
+      },
+      "correctAnswer": "C"
+    },
+    {
+      "id": 89,
+      "question": "What does logger.Debug(\"App is starting...\"); in NLog indicate?",
+      "options": {
+        "A": "Logs critical crash info",
+        "B": "Logs startup information at debug level",
+        "C": "Ends the session",
+        "D": "Initializes configuration"
+      },
+      "correctAnswer": "B"
+    },
+    {
+      "id": 90,
+      "question": "In NLog’s nlog.config, what does ${exception:format=tostring} do?",
+      "options": {
+        "A": "Sends logs to email",
+        "B": "Suppresses errors",
+        "C": "Formats exceptions as strings",
+        "D": "Encrypts exception messages"
+      },
+      "correctAnswer": "C"
+    }
+  ]
