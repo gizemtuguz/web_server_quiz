@@ -81,8 +81,8 @@ body {
     }
     
     .nav-buttons button {
-      flex: 1;
-      margin: 0 5px;
+      flex: 2;
+      margin: 0 10px;
     }
     
   }
