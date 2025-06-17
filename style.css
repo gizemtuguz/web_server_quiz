@@ -74,5 +74,16 @@ body {
       font-size: 0.95em;
       padding: 10px;
     }
+    .nav-buttons {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 20px;
+    }
+    
+    .nav-buttons button {
+      flex: 1;
+      margin: 0 5px;
+    }
+    
   }
   
