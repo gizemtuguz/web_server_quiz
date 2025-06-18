@@ -119,16 +119,26 @@ button.wrong {
     margin: 8px 0;
   }
 
+  #quiz-select-box {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  #quiz-select-box h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
   #quiz-select-box button {
-    font-size: 1.3em;
-    padding: 14px 28px;
-    margin: 10px;
-    border-radius: 10px;
+    font-size: 1.2em;
+    padding: 14px 30px;
+    margin: 10px 15px;
+    border-radius: 12px;
     background-color: #2c2c2c;
     color: white;
-    border: 1px solid #444;
+    border: 2px solid #444;
     cursor: pointer;
-    transition: background 0.2s ease;
+    transition: all 0.2s ease;
   }
   
   #quiz-select-box button:hover {
@@ -136,6 +146,7 @@ button.wrong {
     transform: scale(1.05);
   }
   
+
   
 }
 
