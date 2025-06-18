@@ -48,13 +48,20 @@ function showQuestion() {
     optionsContainer.appendChild(btn);
   }
 
+  // Reset next button text
+  const nextBtn = document.getElementById("next-btn");
+  nextBtn.textContent = (currentQuestionIndex === questions.length - 1) ? "Finish ✅" : "Next ➡";
+
   document.getElementById("prev-btn").disabled = currentQuestionIndex === 0;
-  document.getElementById("next-btn").disabled = currentQuestionIndex === questions.length - 1;
 }
 
 function selectAnswer(button, selectedKey) {
   const question = questions[currentQuestionIndex];
   const buttons = document.querySelectorAll("#options button");
+
+  // Prevent multiple selections
+  if ([...buttons].some(btn => btn.disabled)) return;
+
   buttons.forEach(btn => btn.disabled = true);
 
   if (selectedKey === question.correctAnswer) {
@@ -68,9 +75,22 @@ function selectAnswer(button, selectedKey) {
       }
     });
   }
+
+  // If it's the last question, update next button
+  if (currentQuestionIndex === questions.length - 1) {
+    document.getElementById("next-btn").textContent = "Finish ✅";
+  }
 }
 
 document.getElementById("next-btn").addEventListener("click", () => {
+  const optionsDisabled = [...document.querySelectorAll("#options button")]
+    .every(btn => btn.disabled);
+
+  if (!optionsDisabled) {
+    alert("Please select an answer before continuing.");
+    return;
+  }
+
   if (currentQuestionIndex < questions.length - 1) {
     currentQuestionIndex++;
     showQuestion();
