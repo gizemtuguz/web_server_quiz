@@ -9,17 +9,22 @@ function shuffleArray(array) {
   }
 }
 
-async function loadQuestions() {
-  const res = await fetch("quiz_questions.json");
-  questions = await res.json();
+function startQuiz(filename) {
+  document.getElementById("quiz-select-box").classList.add("hidden");
+  document.getElementById("quiz-box").classList.remove("hidden");
 
-  const urlParams = new URLSearchParams(window.location.search);
-  const qParam = parseInt(urlParams.get("q"));
-  if (!isNaN(qParam) && qParam >= 1 && qParam <= questions.length) {
-    currentQuestionIndex = qParam - 1;
-  }
-
-  showQuestion();
+  fetch(filename)
+    .then(res => res.json())
+    .then(data => {
+      questions = data;
+      const urlParams = new URLSearchParams(window.location.search);
+      const qParam = parseInt(urlParams.get("q"));
+      currentQuestionIndex = (!isNaN(qParam) && qParam >= 1 && qParam <= questions.length)
+        ? qParam - 1
+        : 0;
+      score = 0;
+      showQuestion();
+    });
 }
 
 function updateURL() {
@@ -31,7 +36,7 @@ function showQuestion() {
   updateURL();
 
   const question = questions[currentQuestionIndex];
-  document.getElementById("question").textContent = ` ${question.question}`;
+  document.getElementById("question").textContent = `${currentQuestionIndex + 1}. ${question.question}`;
 
   const optionsContainer = document.getElementById("options");
   optionsContainer.innerHTML = "";
@@ -39,7 +44,7 @@ function showQuestion() {
   for (const key in question.options) {
     const btn = document.createElement("button");
     btn.textContent = `${key}) ${question.options[key]}`;
-    btn.onclick = () => selectAnswer(btn, key === question.correctAnswer);
+    btn.onclick = () => selectAnswer(btn, key);
     optionsContainer.appendChild(btn);
   }
 
@@ -47,17 +52,18 @@ function showQuestion() {
   document.getElementById("next-btn").disabled = currentQuestionIndex === questions.length - 1;
 }
 
-function selectAnswer(button, isCorrect) {
+function selectAnswer(button, selectedKey) {
+  const question = questions[currentQuestionIndex];
   const buttons = document.querySelectorAll("#options button");
   buttons.forEach(btn => btn.disabled = true);
 
-  if (isCorrect) {
+  if (selectedKey === question.correctAnswer) {
     button.classList.add("correct");
     score++;
   } else {
     button.classList.add("wrong");
     buttons.forEach(btn => {
-      if (btn.textContent.startsWith(questions[currentQuestionIndex].correctAnswer)) {
+      if (btn.textContent.startsWith(question.correctAnswer)) {
         btn.classList.add("correct");
       }
     });
@@ -93,5 +99,3 @@ function showResult() {
   document.getElementById("score-text").textContent =
     `You got ${score} out of ${questions.length} questions correct.`;
 }
-
-loadQuestions();

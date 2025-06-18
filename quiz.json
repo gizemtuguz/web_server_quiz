@@ -1,0 +1,2524 @@
+[
+    {
+        "question": "What is the prefix length notation for the subnet mask 255.255.255.224?",
+        "options": [
+            "/25",
+            "/26",
+            "/27",
+            "/28"
+        ],
+        "answer": "/27"
+    },
+    {
+        "question": "How many valid host addresses are available on an IPv4 subnet that is configured with a /26 mask?",
+        "options": [
+            "254",
+            "190",
+            "192",
+            "62",
+            "64"
+        ],
+        "answer": "62"
+    },
+    {
+        "question": "Which subnet mask would be used if 5 host bits are available?",
+        "options": [
+            "255.255.255.0",
+            "255.255.255.128",
+            "255.255.255.224\u200b",
+            "255.255.255.240"
+        ],
+        "answer": "255.255.255.224\u200b"
+    },
+    {
+        "question": "A network administrator subnets the 192.168.10.0/24 network into subnets with /26 masks. How many equal-sized subnets are created?",
+        "options": [
+            "1",
+            "2",
+            "4",
+            "8",
+            "16",
+            "64"
+        ],
+        "answer": "4"
+    },
+    {
+        "question": "What subnet mask is represented by the slash notation /20?",
+        "options": [
+            "255.255.255.248",
+            "255.255.224.0",
+            "255.255.240.0",
+            "255.255.255.0",
+            "255.255.255.192"
+        ],
+        "answer": "255.255.240.0"
+    },
+    {
+        "question": "Which statement is true about variable-length subnet masking?",
+        "options": [
+            "Each subnet is the same size.",
+            "The size of each subnet may be different, depending on requirements.",
+            "Subnets may only be subnetted one additional time.",
+            "Bits are returned, rather than borrowed, to create additional subnets."
+        ],
+        "answer": "The size of each subnet may be different, depending on requirements."
+    },
+    {
+        "question": "Why does a Layer 3 device perform the ANDing process on a destination IP address and subnet mask?",
+        "options": [
+            "To identify the broadcast address of the destination network",
+            "To identify the host address of the destination host",
+            "To identify faulty frames",
+            "To identify the network address of the destination network"
+        ],
+        "answer": "To identify the network address of the destination network"
+    },
+    {
+        "question": "How many usable IP addresses are available on the 192.168.1.0/27 network?",
+        "options": [
+            "256",
+            "254",
+            "62",
+            "30",
+            "16",
+            "32"
+        ],
+        "answer": "30"
+    },
+    {
+        "question": "Which subnet mask would be used if exactly 4 host bits are available?",
+        "options": [
+            "255.255.255.224",
+            "255.255.255.128",
+            "255.255.255.240",
+            "255.255.255.248"
+        ],
+        "answer": "255.255.255.240"
+    },
+    {
+        "question": "If a network device has a mask of /26, how many IP addresses are available for hosts on this network?",
+        "options": [
+            "64",
+            "30",
+            "62",
+            "32",
+            "16",
+            "14"
+        ],
+        "answer": "62"
+    },
+    {
+        "question": "What does the IP address 172.17.4.250/24 represent?",
+        "options": [
+            "Network address",
+            "Multicast address",
+            "Host address",
+            "Broadcast address"
+        ],
+        "answer": "Host address"
+    },
+    {
+        "question": "If a network device has a mask of /28, how many IP addresses are available for hosts on this network?",
+        "options": [
+            "256",
+            "254",
+            "62",
+            "32",
+            "16",
+            "14"
+        ],
+        "answer": "14"
+    },
+    {
+        "question": "What is the purpose of the subnet mask in conjunction with an IP address?",
+        "options": [
+            "To uniquely identify a host on a network",
+            "To identify whether the address is public or private",
+            "To determine the subnet to which the host belongs",
+            "To mask the IP address to outsiders"
+        ],
+        "answer": "To determine the subnet to which the host belongs"
+    },
+    {
+        "question": "A network administrator is variably subnetting a network. The smallest subnet has a mask of 255.255.255.224. How many usable host addresses will this subnet provide?",
+        "options": [
+            "2",
+            "6",
+            "14",
+            "30",
+            "62"
+        ],
+        "answer": "30"
+    },
+    {
+        "question": "What destination MAC address would be included in a frame sent from a source device to a destination device on the same local network?",
+        "options": [
+          "A broadcast MAC address of FF-FF-FF-FF-FF-FF.",
+          "The MAC address of the destination device.",
+          "The MAC address of the local router interface."
+        ],
+        "correctAnswer": "The MAC address of the destination device."
+      },
+      {
+        "question": "What destination MAC address would be included in a frame sent from a source device to a destination device on a remote local network?",
+        "options": [
+          "A broadcast MAC address of FF-FF-FF-FF-FF-FF.",
+          "The MAC address of the destination device.",
+          "The MAC address of the local router interface."
+        ],
+        "correctAnswer": "The MAC address of the local router interface."
+      },
+      {
+        "question": "Where is the ARP table stored on a device?",
+        "options": [
+          "ROM",
+          "Flash",
+          "NVRAM",
+          "RAM"
+        ],
+        "correctAnswer": "RAM"
+      },
+      {
+        "question": "Which statement is true about ARP?",
+        "options": [
+          "An ARP cache cannot be manually deleted.",
+          "ARP entries are cached permanently.",
+          "ARP entries are cached temporarily."
+        ],
+        "correctAnswer": "ARP entries are cached temporarily."
+      },
+      {
+        "question": "Which command could be used on a Cisco router to view its ARP table?",
+        "options": [
+          "arp -a",
+          "arp -d",
+          "show arp table",
+          "show ip arp"
+        ],
+        "correctAnswer": "show ip arp"
+      },
+      {
+        "question": "What is an attack using ARP?",
+        "options": [
+          "ARP broadcasts",
+          "ARP hopping attacks",
+          "ARP poisoning",
+          "ARP starvation"
+        ],
+        "correctAnswer": "ARP poisoning"
+      },
+      {
+        "question": "To what type of address are ICMPv6 neighbor solicitation messages sent?",
+        "options": [
+          "Unicast",
+          "Multicast",
+          "Broadcast"
+        ],
+        "correctAnswer": "Multicast"
+      },
+      {
+        "question": "Which router component holds the routing table, ARP cache, and running configuration file?",
+        "options": [
+          "RAM",
+          "Flash",
+          "NVRAM",
+          "ROM"
+        ],
+        "correctAnswer": "RAM"
+      },
+      {
+        "question": "What type of information is contained in an ARP table?",
+        "options": [
+          "Switch ports associated with destination MAC addresses",
+          "Domain name to IPv4 address mappings",
+          "Routes to reach destination networks",
+          "IPv4 address to MAC address mappings"
+        ],
+        "correctAnswer": "IPv4 address to MAC address mappings"
+      },
+      {
+        "question": "A PC is configured to obtain an IPv4 address automatically from network 192.168.1.0/24. The network administrator issues the arp -a command and notices an entry of 192.168.1.255 ff-ff-ff-ff-ff-ff. Which statement describes this entry?",
+        "options": [
+          "This is a static map entry.",
+          "This is a dynamic map entry.",
+          "This entry refers to the PC itself.",
+          "This entry maps to the default gateway."
+        ],
+        "correctAnswer": "This is a dynamic map entry."
+      },
+      {
+        "question": "A cybersecurity analyst believes an attacker is spoofing the MAC address of the default gateway to perform a man-in-the-middle attack. Which command should the analyst use to view the MAC address a host is using to reach the default gateway?",
+        "options": [
+          "ipconfig /all",
+          "route print",
+          "netstat -r",
+          "arp -a"
+        ],
+        "correctAnswer": "arp -a"
+      },
+      {
+        "question": "What will a Layer 2 switch do when the destination MAC address of a received frame is not in the MAC table?",
+        "options": [
+          "It initiates an ARP request.",
+          "It broadcasts the frame out of all ports on the switch.",
+          "It notifies the sending host that the frame cannot be delivered.",
+          "It forwards the frame out of all ports except for the port at which the frame was received."
+        ],
+        "correctAnswer": "It forwards the frame out of all ports except for the port at which the frame was received."
+      },
+      {
+        "question": "How does the ARP process use an IPv4 address?",
+        "options": [
+          "To determine the MAC address of the remote destination host",
+          "To determine the MAC address of a device on the same network",
+          "To determine the amount of time a packet takes when traveling from source to destination",
+          "To determine the network number based on the number of bits in the IPv4 address"
+        ],
+        "correctAnswer": "To determine the MAC address of a device on the same network"
+      },
+      {
+        "question": "What is one function of the ARP protocol?",
+        "options": [
+          "Obtaining an IPv4 address automatically",
+          "Mapping a domain name to its IP address",
+          "Resolving an IPv4 address to a MAC address",
+          "Maintaining a table of domain names with their resolved IP addresses"
+        ],
+        "correctAnswer": "Resolving an IPv4 address to a MAC address"
+      },
+      {
+        "question": "Which action is taken by a Layer 2 switch when it receives a Layer 2 broadcast frame?",
+        "options": [
+          "It drops the frame.",
+          "It sends the frame to all ports except the port on which it received the frame.",
+          "It sends the frame to all ports that are registered to forward broadcasts.",
+          "It sends the frame to all ports."
+        ],
+        "correctAnswer": "It sends the frame to all ports."
+      },
+      {
+        "question": "What addresses are mapped by ARP?",
+        "options": [
+          "IPv4 address to a destination MAC address",
+          "Destination IPv4 address to the source MAC address",
+          "Destination IPv4 address to the destination host name",
+          "Destination MAC address to the source IPv4 address"
+        ],
+        "correctAnswer": "IPv4 address to a destination MAC address"
+      },
+      {
+        "question": "When an IPv4 packet is sent to a host on a remote network, what information is provided by ARP?",
+        "options": [
+          "The IPv4 address of the destination host",
+          "The IPv4 address of the default gateway",
+          "The MAC address of the router interface closest to the sending host",
+          "The MAC address of the switch port that connects to the sending host"
+        ],
+        "correctAnswer": "The MAC address of the router interface closest to the sending host"
+      },
+      {
+        "question": "The ARP table in a switch maps which two types of address together?",
+        "options": [
+          "Layer 3 address to a Layer 2 address",
+          "Layer 3 address to a Layer 4 address",
+          "Layer 4 address to a Layer 2 address",
+          "Layer 2 address to a Layer 4 address"
+        ],
+        "correctAnswer": "Layer 3 address to a Layer 2 address"
+      },
+      {
+        "question": "What is the purpose of ARP in an IPv4 network?",
+        "options": [
+          "To forward data onward based on the destination IP address",
+          "To obtain a specific MAC address when an IP address is known",
+          "To forward data onward based on the destination MAC address.",
+          "To build the MAC address table in a switch from the information that is gathered"
+        ],
+        "correctAnswer": "To obtain a specific MAC address when an IP address is known"
+      },
+      {
+        "question": "Which destination address is used in an ARP request frame?",
+        "options": [
+          "0.0.0.0",
+          "255.255.255.255",
+          "FFFF.FFFF.FFFF",
+          "127.0.0.1"
+        ],
+        "correctAnswer": "FFFF.FFFF.FFFF"
+      },
+      {
+        "question": "A router boots and enters setup mode. What is the reason for this?",
+        "options": [
+          "The IOS image is corrupt.",
+          "Cisco IOS is missing from flash memory.",
+          "The configuration file is missing from NVRAM.",
+          "The POST process has detected hardware failure."
+        ],
+        "correctAnswer": "The configuration file is missing from NVRAM."
+      },
+      {
+        "question": "Which command is used to encrypt all passwords in a router configuration file?",
+        "options": [
+          "Router_A (config) # enable secret <password>",
+          "Router_A (config) # service password-encryption",
+          "Router_A (config) # enable password <password>",
+          "Router_A (config) # encrypt password"
+        ],
+        "correctAnswer": "Router_A (config) # service password-encryption"
+      },
+      {
+        "question": "Company policy requires using the most secure method to safeguard access to the privileged exec and configuration mode on the routers. The privileged exec password is trustknow1. Which of the following router commands achieves the goal of providing the highest level of security?",
+        "options": [
+          "secret password trustknow1",
+          "enable password trustknow1",
+          "service password-encryption",
+          "enable secret trustknow1"
+        ],
+        "correctAnswer": "enable secret trustknow1"
+      },
+      {
+        "question": "What will be the response from the router after the command, \"router(config)# hostname portsmouth\" is entered?",
+        "options": [
+          "portsmouth#",
+          "portsmouth(config)#",
+          "invalid input detected",
+          "router(config-host)#",
+          "hostname = portsmouth portsmouth#",
+          "? command not recognized router(config)#"
+        ],
+        "correctAnswer": "portsmouth(config)#"
+      },
+      {
+        "question": "An administrator is configuring a new router to permit out-of-band management access. Which set of commands will allow the required login using a password of cisco?",
+        "options": [
+          "Router(config)# line vty 0 4\nRouter(config-line)# password manage\nRouter(config-line)# exit\nRouter(config)# enable password cisco",
+          "Router(config)# line vty 0 4\nRouter(config-line)# password cisco\nRouter(config-line)# login",
+          "Router(config)# line console 0\nRouter(config-line)# password cisco\nRouter(config-line)# login",
+          "Router(config)# line console 0\nRouter(config-line)# password cisco\nRouter(config-line)# exit\nRouter(config)# service password-encryption"
+        ],
+        "correctAnswer": "Router(config)# line vty 0 4\nRouter(config-line)# password cisco\nRouter(config-line)# login"
+      },
+      {
+        "question": "Which command can be used on a Cisco router to display all interfaces, the IPv4 address assigned, and the current status?",
+        "options": [
+          "show ip interface brief",
+          "ping",
+          "show ip route",
+          "show interface fa0/1"
+        ],
+        "correctAnswer": "show ip interface brief"
+      },
+      {
+        "question": "Which CLI mode allows users to access all device commands, such as those used for configuration, management, and troubleshooting?",
+        "options": [
+          "User EXEC mode",
+          "Privileged EXEC mode",
+          "Global configuration mode",
+          "Interface configuration mode"
+        ],
+        "correctAnswer": "Privileged EXEC mode"
+      },
+      {
+        "question": "What is the purpose of the startup configuration file on a Cisco router?",
+        "options": [
+          "To facilitate the basic operation of the hardware components of a device",
+          "To contain the commands that are used to initially configure a router on startup",
+          "To contain the configuration commands that the router IOS is currently using",
+          "To provide a limited backup version of the IOS, in case the router cannot load the full featured IOS"
+        ],
+        "correctAnswer": "To contain the commands that are used to initially configure a router on startup"
+      },
+      {
+        "question": "Which characteristic describes the default gateway of a host computer?",
+        "options": [
+          "The logical address of the router interface on the same network as the host computer",
+          "The physical address of the switch interface connected to the host computer",
+          "The physical address of the router interface on the same network as the host computer",
+          "The logical address assigned to the switch interface connected to the router"
+        ],
+        "correctAnswer": "The logical address of the router interface on the same network as the host computer"
+      },
+      {
+        "question": "What is the purpose of the banner motd command?",
+        "options": [
+          "It configures a message that will identify printed documents to LAN users.",
+          "It is a way that routers communicate the status of their links with one another.",
+          "It provides an easy way of communicating with any user attached to a router's LANs.",
+          "It provides a way to make announcements to those who log in to a router."
+        ],
+        "correctAnswer": "It provides a way to make announcements to those who log in to a router."
+      },
+      {
+        "question": "A technician is configuring a router to allow for all forms of management access. As part of each different type of access, the technician is trying to type the command login. Which configuration mode should be entered to do this task?",
+        "options": [
+          "User executive mode",
+          "Global configuration mode",
+          "Any line configuration mode",
+          "Privileged EXEC mode"
+        ],
+        "correctAnswer": "Any line configuration mode"
+      },
+      {
+        "question": "What is stored in the NVRAM of a Cisco router?",
+        "options": [
+          "The Cisco IOS",
+          "The running configuration",
+          "The bootup instructions",
+          "The startup configuration"
+        ],
+        "correctAnswer": "The startup configuration"
+      },
+      {
+        "question": "Which statement regarding the service password-encryption command is true?",
+        "options": [
+          "It is configured in privileged EXEC mode.",
+          "It encrypts only line mode passwords.",
+          "As soon as the service password-encryption command is entered, all currently set passwords formerly displayed in plain text are encrypted.",
+          "To see the passwords encrypted by the service password-encryption command in plain text, issue the no service password-encryption command."
+        ],
+        "correctAnswer": "As soon as the service password-encryption command is entered, all currently set passwords formerly displayed in plain text are encrypted."
+      },
+      {
+        "question": "What information does the loopback test provide?",
+        "options": [
+          "The Ethernet cable is working correctly.",
+          "The device has end-to-end connectivity.",
+          "The device has the correct IP address on the network.",
+          "DHCP is working correctly.",
+          "The TCP/IP stack on the device is working correctly."
+        ],
+        "correctAnswer": "The TCP/IP stack on the device is working correctly."
+      },
+      {
+        "question": "Why is NAT not needed in IPv6?",
+        "options": [
+          "Because IPv6 has integrated security, there is no need to hide the IPv6 addresses of internal networks.",
+          "The end-to-end connectivity problems that are caused by NAT are solved because the number of routes increases with the number of nodes that are connected to the Internet.",
+          "The problems that are induced by NAT applications are solved because the IPv6 header improves packet handling by intermediate routers.",
+          "Any host or user can get a public IPv6 network address because the number of available IPv6 addresses is extremely large."
+        ],
+        "correctAnswer": "Any host or user can get a public IPv6 network address because the number of available IPv6 addresses is extremely large."
+      },
+      {
+        "question": "What is one advantage that the IPv6 simplified header offers over IPv4?",
+        "options": [
+          "efficient packet handling",
+          "smaller-sized source and destination IP addresses",
+          "smaller-sized header",
+          "little requirement for processing checksums"
+        ],
+        "correctAnswer": "efficient packet handling"
+      },
+      {
+        "question": "Which field in the IPv4 header is used to prevent a packet from traversing a network endlessly?",
+        "options": [
+          "Acknowledgment Number",
+          "Differentiated Services",
+          "Sequence Number",
+          "Time-to-Live"
+        ],
+        "correctAnswer": "Time-to-Live"
+      },
+      {
+        "question": "What IPv4 header field identifies the upper layer protocol carried in the packet?",
+        "options": [
+          "Differentiated Services",
+          "Version",
+          "Protocol",
+          "Identification"
+        ],
+        "correctAnswer": "Protocol"
+      },
+      {
+        "question": "Which parameter does the router use to choose the path to the destination when there are multiple routes available?",
+        "options": [
+          "the lower metric value that is associated with the destination network",
+          "the higher gateway IP address to get to the destination network",
+          "the lower gateway IP address to get to the destination network",
+          "the higher metric value that is associated with the destination network"
+        ],
+        "correctAnswer": "the lower metric value that is associated with the destination network"
+      },
+      {
+        "question": "What important information is examined in the Ethernet frame header by a Layer 2 device in order to forward the data onward?",
+        "options": [
+          "destination MAC address",
+          "source MAC address",
+          "source IP address",
+          "ethernet type",
+          "destination IP address"
+        ],
+        "correctAnswer": "destination MAC address"
+      },
+      {
+        "question": "Where are IPv4 address to Layer 2 Ethernet address mappings maintained on a host computer?",
+        "options": [
+          "Neighbor table",
+          "MAC address table",
+          "ARP cache",
+          "Routing table"
+        ],
+        "correctAnswer": "ARP cache"
+      },
+      {
+        "question": "Which statement describes the treatment of ARP requests on the local link?",
+        "options": [
+          "They must be forwarded by all routers on the local network.",
+          "They are dropped by all switches on the local network.",
+          "They are received and processed only by the target device.",
+          "They are received and processed by every device on the local network."
+        ],
+        "correctAnswer": "They are received and processed by every device on the local network."
+      },
+      {
+        "question": "What is the effect of using the Router# copy running-config startup-config command on a router?",
+        "options": [
+          "The contents of NVRAM will change.",
+          "The contents of RAM will change.",
+          "The contents of ROM will change.",
+          "The contents of flash will change."
+        ],
+        "correctAnswer": "The contents of NVRAM will change."
+      },
+      {
+        "question": "What will happen if the default gateway address is incorrectly configured on a host?",
+        "options": [
+          "A ping from the host to 127.0.0.1 would not be successful.",
+          "The host will have to use ARP to determine the correct address of the default gateway.",
+          "The host cannot communicate with other hosts in the local network.",
+          "The switch will not forward packets initiated by the host.",
+          "The host cannot communicate with hosts in other networks."
+        ],
+        "correctAnswer": "The host cannot communicate with hosts in other networks."
+      },
+      {
+        "question": "Which term describes a field in the IPv4 packet header that contains a 32-bit binary value associated with an interface on the sending device?",
+        "options": [
+          "Protocol",
+          "TTL",
+          "Destination IPv4 address",
+          "Source IPv4 address"
+        ],
+        "correctAnswer": "Source IPv4 address"
+      },
+      {
+        "question": "What IP address would be configured as the default gateway on the new host?",
+        "options": [
+          "172.19.99.99",
+          "172.19.98.1",
+          "172.19.98.230",
+          "209.165.200.120",
+          "10.98.99.254"
+        ],
+        "correctAnswer": "172.19.98.230"
+    },
+    {
+        "question": "Host-A has the IPv4 address and subnet mask 10.5.4.100 255.255.255.0. What is the network address of Host-A?",
+        "options": [
+          "10.0.0.0",
+          "10.5.0.0",
+          "10.5.4.0",
+          "10.5.4.100"
+        ],
+        "correctAnswer": "10.5.4.0"
+      },
+      {
+        "question": "Host-A has the IPv4 address and subnet mask 172.16.4.100 255.255.0.0. What is the network address of Host-A?",
+        "options": [
+          "172.0.0.0",
+          "172.16.0.0",
+          "172.16.4.0",
+          "172.16.4.100"
+        ],
+        "correctAnswer": "172.16.0.0"
+      },
+      {
+        "question": "Which organization or group of organizations receives IP addresses from IANA and is responsible for allocating these addresses to ISPs and some organizations?",
+        "options": [
+          "IETF",
+          "IEEE",
+          "RIRs",
+          "Tier 1 ISPs"
+        ],
+        "correctAnswer": "RIRs"
+      },
+      {
+        "question": "Which devices will not forward an IPv4 broadcast packet by default?",
+        "options": [
+          "Ethernet switch",
+          "Router",
+          "Windows PC",
+          "None of the above. All devices forward IPv4 broadcast packets by default."
+        ],
+        "correctAnswer": "Router"
+      },
+      {
+        "question": "What is the most important motivating factor for moving to IPv6?",
+        "options": [
+          "Better performance with IPv6",
+          "IPv6 addresses that are easier to work with",
+          "Better security with IPv6",
+          "Depletion of IPv4 addresses"
+        ],
+        "correctAnswer": "Depletion of IPv4 addresses"
+      },
+      {
+        "question": "True or False: 4 out of 5 RIRs no longer have enough IPv4 addresses to allocate to customers on a regular basis.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "correctAnswer": "True"
+      },
+      {
+        "question": "Which of the following techniques use native IPv6 connectivity?",
+        "options": [
+          "Dual stack",
+          "Tunneling",
+          "Translation",
+          "All of the above"
+        ],
+        "correctAnswer": "Dual stack"
+      },
+      {
+        "question": "What is the recommended prefix length for most IPv6 subnets?",
+        "options": [
+          "/32",
+          "/48",
+          "/64",
+          "/128"
+        ],
+        "correctAnswer": "/64"
+      },
+      {
+        "question": "Which part of a GUA is assigned by the ISP?",
+        "options": [
+          "Global routing prefix",
+          "Global routing prefix and subnet ID",
+          "Prefix",
+          "RIR prefix"
+        ],
+        "correctAnswer": "Global routing prefix"
+      },
+      {
+        "question": "Which type of IPv6 unicast address is not routable between networks?",
+        "options": [
+          "Unique local address",
+          "GUA",
+          "Embedded IPv4 address",
+          "LLA"
+        ],
+        "correctAnswer": "LLA"
+      },
+      {
+        "question": "True or false? The Subnet ID field in an GUA must borrow bits from the interface ID.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "correctAnswer": "False"
+      },
+      {
+        "question": "What type of IPv6 address begins with fe80?",
+        "options": [
+          "GUA",
+          "LLA",
+          "Multicast address",
+          "None. An IPv6 address must begin with 2001."
+        ],
+        "correctAnswer": "LLA"
+      },
+      {
+        "question": "True or false? RA messages are sent to all IPv6 routers by hosts requesting addressing information.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "correctAnswer": "False"
+      },
+      {
+        "question": "Which dynamic addressing method for GUAs is the one where devices rely solely on the contents of the RA message for their addressing information?",
+        "options": [
+          "Method 1: SLAAC",
+          "Method 2: SLAAC and stateless DHCPv6",
+          "Method 3: Stateful DHCPv6"
+        ],
+        "correctAnswer": "Method 1: SLAAC"
+      },
+      {
+        "question": "Which dynamic addressing method for GUAs is the one where devices rely solely on a DHCPv6 server for their addressing information?",
+        "options": [
+          "Method 1: SLAAC",
+          "Method 2: SLAAC and stateless DHCPv6",
+          "Method 3: Stateful DHCPv6"
+        ],
+        "correctAnswer": "Method 3: Stateful DHCPv6"
+      },
+      {
+        "question": "Which dynamic addressing method for GUAs is the one where devices get their IPv6 configuration in a RA message and request DNS information from a DHCPv6 server?",
+        "options": [
+          "Method 1: SLAAC",
+          "Method 2: SLAAC and stateless DHCPv6",
+          "Method 3: Stateful DHCPv6"
+        ],
+        "correctAnswer": "Method 2: SLAAC and stateless DHCPv6"
+      },
+      {
+        "question": "True or False? IPv6 was designed with subnetting in mind.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "correctAnswer": "True"
+      },
+      {
+        "question": "Which field in an IPv6 GUA is used for subnetting?",
+        "options": [
+          "Prefix",
+          "Network",
+          "Global Routing Prefix",
+          "Subnet ID",
+          "Interface ID"
+        ],
+        "correctAnswer": "Subnet ID"
+      },
+      {
+        "question": "Given a /48 Global Routing Prefix and a /64 prefix, what is the subnet portion of the following address: 2001:db8:cafe:1111:2222:3333:4444:5555",
+        "options": [
+          "Caf\u00e9",
+          "1111",
+          "2222",
+          "3333",
+          "4444"
+        ],
+        "correctAnswer": "1111"
+      },
+      {
+        "question": "Given a /32 Global Routing Prefix and a /64 prefix, how many bits would be allocated for the Subnet ID?",
+        "options": [
+          "8",
+          "16",
+          "32",
+          "48",
+          "64"
+        ],
+        "correctAnswer": "32"
+      },
+      {
+        "question": "What is the valid most compressed format possible of the IPv6 address 2001:0DB8:0000:AB00:0000:0000:0000:1234?",
+        "options": [
+          "2001:DB8:0:AB00::1234",
+          "2001:DB8:0:AB::1234",
+          "2001:DB8::AB00::1234",
+          "2001:DB8:0:AB:0:1234"
+        ],
+        "correctAnswer": "2001:DB8:0:AB00::1234"
+      },
+      {
+        "question": "Which type of ICMPv6 message would a host send to acquire an IPv6 configuration when booting up?",
+        "options": [
+          "Neighbor Advertisement (NA) message",
+          "Neighbor Solicitation (NS) message",
+          "Router Advertisement (RA) message",
+          "Router Solicitation (RS) message"
+        ],
+        "correctAnswer": "Router Solicitation (RS) message"
+      },
+      {
+        "question": "What command can the technician use to identify the faulty node?",
+        "options": [
+          "tracert",
+          "ping",
+          "ipconfig /flushdns",
+          "ipconfig /displaydns"
+        ],
+        "correctAnswer": "tracert"
+      },
+      {
+        "question": "What is the purpose for the ping command to the default gateway?",
+        "options": [
+          "To obtain a dynamic IP address from the server",
+          "To request that gateway forward the connection request to the file server",
+          "To test that the host has the capability to reach hosts on other networks",
+          "To resolve the domain name of the file server to its IP address"
+        ],
+        "correctAnswer": "To test that the host has the capability to reach hosts on other networks"
+      },
+      {
+        "question": "What is a function of the tracert command that differs from the ping command?",
+        "options": [
+          "The tracert command reaches the destination faster.",
+          "The tracert command shows the information of routers in the path.",
+          "The tracert command sends one ICMP message to each hop in the path.",
+          "The tracert command is used to test the connectivity between two devices."
+        ],
+        "correctAnswer": "The tracert command shows the information of routers in the path."
+      },
+      {
+        "question": "Which ICMP message is used by the traceroute utility during the process of finding the path between two end hosts?",
+        "options": [
+          "Redirect",
+          "Ping",
+          "Time exceeded",
+          "Destination unreachable"
+        ],
+        "correctAnswer": "Time exceeded"
+      },
+      {
+        "question": "Which utility uses the Internet Control Messaging Protocol (ICMP)?",
+        "options": [
+          "RIP",
+          "DNS",
+          "Ping",
+          "NTP"
+        ],
+        "correctAnswer": "Ping"
+      },
+      {
+        "question": "Which protocol is used by IPv4 and IPv6 to provide error messaging?",
+        "options": [
+          "ICMP",
+          "NDP",
+          "ARP",
+          "DHCP"
+        ],
+        "correctAnswer": "ICMP"
+      },
+      {
+        "question": "Which symbol will be displayed to indicate that a time expired during the wait for an ICMP echo reply message?",
+        "options": [
+          "!",
+          ".",
+          "U",
+          "$"
+        ],
+        "correctAnswer": "."
+      },
+      {
+        "question": "A user reports that 'ping 127.0.0.1' results in four positive replies. What conclusion can be drawn?",
+        "options": [
+          "The PC can access the network. The problem exists beyond the local network.",
+          "The IP address obtained from the DHCP server is correct.",
+          "The PC can access the Internet. However, the web browser may not work.",
+          "The TCP/IP implementation is functional."
+        ],
+        "correctAnswer": "The TCP/IP implementation is functional."
+      },
+      {
+        "question": "Which command can be used to test connectivity between two devices using echo request and echo reply messages?",
+        "options": [
+          "netstat",
+          "ipconfig",
+          "ICMP",
+          "ping"
+        ],
+        "correctAnswer": "ping"
+      },
+      {
+        "question": "What field content is used by ICMPv6 to determine that a packet has expired?",
+        "options": [
+          "TTL field",
+          "CRC field",
+          "Hop Limit field",
+          "Time Exceeded field"
+        ],
+        "correctAnswer": "Hop Limit field"
+      },
+      {
+        "question": "Which protocol provides feedback from the destination host to the source host about errors in packet delivery?",
+        "options": [
+          "ARP",
+          "BOOTP",
+          "DNS",
+          "ICMP"
+        ],
+        "correctAnswer": "ICMP"
+      },
+      {
+        "question": "Which tool would help identify the specific router where the packet was lost or delayed?",
+        "options": [
+          "ipconfig",
+          "netstat",
+          "telnet",
+          "traceroute"
+        ],
+        "correctAnswer": "traceroute"
+      },
+      {
+        "question": "What message is sent by a host to check the uniqueness of an IPv6 address before using that address?",
+        "options": [
+          "Neighbor solicitation",
+          "ARP request",
+          "Echo request",
+          "Router solicitation"
+        ],
+        "correctAnswer": "Neighbor solicitation"
+      },
+        {
+          "question": "Why will the IP 192.168.25.10 not work for communication over the Internet?",
+          "options": [
+            "There is an IP address conflict.",
+            "This is a private IP address.",
+            "This is a loopback address.",
+            "This is a link-local address."
+          ],
+          "correctAnswer": "This is a private IP address."
+        },
+        {
+          "question": "What is the usable number of host IP addresses on a network that has a /26 mask?",
+          "options": ["254", "62", "16", "256", "32", "64"],
+          "correctAnswer": "62"
+        },
+        {
+          "question": "What is the broadcast address for network 172.16.16.0/22?",
+          "options": [
+            "172.16.23.255",
+            "172.16.19.255",
+            "172.16.255.255",
+            "172.16.16.255",
+            "172.16.20.255"
+          ],
+          "correctAnswer": "172.16.19.255"
+        },
+        {
+          "question": "Which three addresses are valid public addresses?",
+          "options": [
+            "172.31.1.25",
+            "10.15.250.5",
+            "198.133.219.17",
+            "192.168.1.245",
+            "64.104.78.227",
+            "128.107.12.117"
+          ],
+          "correctAnswers": [
+            "198.133.219.17",
+            "64.104.78.227",
+            "128.107.12.117"
+          ]
+        },
+        {
+          "question": "A message is sent to all hosts on a remote network. Which type of message is it?",
+          "options": [
+            "unicast",
+            "limited broadcast",
+            "directed broadcast",
+            "multicast"
+          ],
+          "correctAnswer": "directed broadcast"
+        },
+        {
+          "question": "How many host addresses are available on the network 172.16.128.0 with a subnet mask of 255.255.252.0?",
+          "options": ["510", "1024", "512", "2046", "2048", "1022"],
+          "correctAnswer": "1022"
+        },
+        {
+          "question": "What is the second usable subnet of 192.168.1.0/24 when divided into 4 subnets?",
+          "options": [
+            "192.168.1.64 / 255.255.255.192",
+            "192.168.1.8 / 255.255.255.224",
+            "192.168.1.128 / 255.255.255.192",
+            "192.168.1.64 / 255.255.255.240",
+            "192.168.1.32 / 255.255.255.240"
+          ],
+          "correctAnswer": "192.168.1.64 / 255.255.255.192"
+        },
+        {
+          "question": "Which three blocks of addresses are defined by RFC 1918 for private use?",
+          "options": [
+            "100.64.0.0/14",
+            "172.16.0.0/12",
+            "192.168.0.0/16",
+            "10.0.0.0/8",
+            "169.254.0.0/16",
+            "239.0.0.0/8"
+          ],
+          "correctAnswers": [
+            "172.16.0.0/12",
+            "192.168.0.0/16",
+            "10.0.0.0/8"
+          ]
+        },
+        {
+          "question": "How many host addresses are available on the 192.168.10.128/26 network?",
+          "options": ["60", "62", "32", "30", "64"],
+          "correctAnswer": "62"
+        },
+        {
+          "question": "Which subnet mask will support 126 hosts?",
+          "options": [
+            "255.255.255.128",
+            "255.255.255.0",
+            "255.255.255.240",
+            "255.255.255.224"
+          ],
+          "correctAnswer": "255.255.255.128"
+        },
+        {
+          "question": "Which service provides dynamic IPv6 addressing without keeping address records?",
+          "options": [
+            "stateful DHCPv6",
+            "static IPv6 addressing",
+            "SLAAC",
+            "stateless DHCPv6"
+          ],
+          "correctAnswer": "SLAAC"
+        },
+        {
+          "question": "Which address is a valid IPv6 link-local unicast address?",
+          "options": [
+            "FD80::1:1234",
+            "FE80::1:4545:6578:ABC1",
+            "FC90:5678:4251:FFFF",
+            "FEC8:1::FFFF",
+            "FE0A::100:7788:998F"
+          ],
+          "correctAnswer": "FE80::1:4545:6578:ABC1"
+        },
+        {
+          "question": "Which type of IPv6 address refers to any unicast address assigned to multiple hosts?",
+          "options": ["link-local", "unique local", "anycast", "global unicast"],
+          "correctAnswer": "anycast"
+        },
+        {
+          "question": "Which IPv6 prefix is reserved for communication on the same link?",
+          "options": ["FDFF::/7", "FE80::/10", "2001::/32", "FC00::/7"],
+          "correctAnswer": "FE80::/10"
+        },
+        {
+          "question": "What is the shortest abbreviation of 3FFE:1044:0000:0000:00AB:0000:0000:0057?",
+          "options": [
+            "3FFE:1044::00AB::0057",
+            "3FFE:1044:0:0:00AB::0057",
+            "3FFE:1044::AB::57",
+            "3FFE:1044:0000:0000:00AB::57",
+            "3FFE:1044:0:0:AB::57",
+            "3FFE:1044:0000:0000:00AB::0057"
+          ],
+          "correctAnswer": "3FFE:1044:0:0:AB::57"
+        },
+        {
+          "question": "How many subnets can be created from a /48 IPv6 prefix (not subnetting into interface ID)?",
+          "options": ["16", "65536", "4096", "256"],
+          "correctAnswer": "4096"
+        },
+        {
+          "question": "What is the last subnet if a /48 is changed to /52 for 2001:db8::/48?",
+          "options": [
+            "2001:db8:0:f00::/52",
+            "2001:db8:0:f000::/52",
+            "2001:db8:0:8000::/52",
+            "2001:db8:0:f::/52"
+          ],
+          "correctAnswer": "2001:db8:0:f00::/52"
+        },
+        {
+          "question": "What is the prefix for 2001:DB8:BC15:A:12AB::1/64?",
+          "options": [
+            "2001:DB8:BC15",
+            "2001:DB8:BC15:A:1",
+            "2001:DB8:BC15:A:12",
+            "2001:DB8:BC15:A"
+          ],
+          "correctAnswer": "2001:DB8:BC15:A"
+        },
+        {
+          "question": "What type of IPv6 address is FE80::1?",
+          "options": [
+            "link-local",
+            "loopback",
+            "multicast",
+            "global unicast"
+          ],
+          "correctAnswer": "link-local"
+        },
+        {
+          "question": "What is the maximum number of subnets per sub-site in a hierarchical IPv6 design?",
+          "options": ["0", "256", "16", "4"],
+          "correctAnswer": "256"
+        },
+        {
+          "question": "What is used in the EUI-64 process to create an IPv6 interface ID?",
+          "options": [
+            "a randomly generated 64-bit hexadecimal address",
+            "the MAC address of the IPv6 enabled interface",
+            "an IPv4 address on the interface",
+            "an IPv6 address from a DHCPv6 server"
+          ],
+          "correctAnswer": "the MAC address of the IPv6 enabled interface"
+        },
+        {
+          "question": "What does ping 127.0.0.1 test?",
+          "options": [
+            "connectivity between two PCs",
+            "connectivity to the default gateway",
+            "the TCP/IP stack on a host",
+            "connectivity between Cisco devices",
+            "physical connectivity of a PC"
+          ],
+          "correctAnswer": "the TCP/IP stack on a host"
+        },
+        {
+          "question": "What source IP does traceroute use by default?",
+          "options": [
+            "a loopback IP address",
+            "the highest configured IP",
+            "the IP of the outbound interface",
+            "the lowest configured IP"
+          ],
+          "correctAnswer": "the IP of the outbound interface"
+        },
+        {
+          "question": "Which ICMPv6 message is sent when hop limit reaches zero?",
+          "options": [
+            "time exceeded",
+            "protocol unreachable",
+            "network unreachable",
+            "port unreachable"
+          ],
+          "correctAnswer": "time exceeded"
+        },
+        {
+          "question": "Which subnet would include 192.168.1.96 as a usable address?",
+          "options": [
+            "192.168.1.64/29",
+            "192.168.1.32/27",
+            "192.168.1.64/26",
+            "192.168.1.32/28"
+          ],
+          "correctAnswer": "192.168.1.64/26"
+        },
+        {
+          "question": "What is the prefix length of 255.255.255.224?",
+          "options": ["/26", "/25", "/28", "/27"],
+          "correctAnswer": "/27"
+        },
+        {
+          "question": "Which three IPv6 addresses are shown in the route from PC1 to PC2?",
+          "options": [
+            "2001:DB8:1:4::1",
+            "2001:DB8:1:2::2",
+            "2001:DB8:1:1::1",
+            "2001:DB8:1:3::1",
+            "2001:DB8:1:3::2",
+            "2001:DB8:1:1::A",
+            "2001:DB8:1:2::1"
+          ],
+          "correctAnswers": [
+            "2001:DB8:1:1::1",
+            "2001:DB8:1:2::2",
+            "2001:DB8:1:4::1"
+          ]
+        },
+        {
+          "question": "Which host(s) receive a broadcast?",
+          "options": [
+            "all hosts in the same subnet",
+            "one specific host",
+            "directly connected devices",
+            "closest neighbor"
+          ],
+          "correctAnswer": "all hosts in the same subnet"
+        },
+        {
+          "question": "What is the compressed form of 2002:0420:00c4:1008:0025:0190:0000:0990?",
+          "options": [
+            "2002:42:10:c400::909",
+            "2002:42::25:1090:0:99",
+            "2002:4200::25:1090:0:99",
+            "2002:420:c4:1008:25:190::990"
+          ],
+          "correctAnswer": "2002:420:c4:1008:25:190::990"
+        },
+        {
+          "question": "What does ICMPv6 code 2 mean in a ping response?",
+          "options": [
+            "no route to destination",
+            "address unreachable",
+            "beyond scope of source",
+            "communication administratively prohibited"
+          ],
+          "correctAnswer": "beyond scope of source"
+        },
+        {
+            "question": "Which layer is responsible for establishing a temporary communication session between the source and destination host applications?",
+            "options": ["Application layer", "Data link layer", "Network layer", "Physical layer", "Transport layer"],
+            "correctAnswer": "Transport layer"
+          },
+          {
+            "question": "Which transport layer protocol statement is true?",
+            "options": ["TCP has fewer fields than UDP.", "TCP is faster than UDP.", "UDP is a best-effort delivery protocol.", "UDP provides reliability."],
+            "correctAnswer": "UDP is a best-effort delivery protocol."
+          },
+          {
+            "question": "Which transport layer protocol would be used for VoIP applications?",
+            "options": ["Session Information Protocol (SIP)", "Transmission Control Protocol (TCP)", "User Datagram Protocol (UDP)", "VoIP Transfer Protocol"],
+            "correctAnswer": "User Datagram Protocol (UDP)"
+          },
+          {
+            "question": "Which transport layer protocol ensures reliable same-order delivery?",
+            "options": ["ICMP", "IP", "TCP", "UDP"],
+            "correctAnswer": "TCP"
+          },
+          {
+            "question": "Which TCP header statement is true?",
+            "options": ["It consists of 4 fields in an 8-byte header.", "It consists of 8 fields in a 10-byte header.", "It consists of 10 fields in a 20-byte header.", "It consists of 20 fields in a 40-byte header."],
+            "correctAnswer": "It consists of 10 fields in a 20-byte header."
+          },
+          {
+            "question": "Which of the following would display the correct socket pair for a host requesting web services?",
+            "options": ["1099:10.1.1.10, 80:10.1.1.254", "10.1.1.10:80, 10.1.1.254:1099", "10.1.1.10:1099, 10.1.1.254:80", "80:10.1.1.10, 1099:10.1.1.254"],
+            "correctAnswer": "10.1.1.10:1099, 10.1.1.254:80"
+          },
+          {
+            "question": "Which port group includes port numbers for FTP, HTTP, and TFTP applications?",
+            "options": ["Dynamic ports", "Private ports", "Registered ports", "Well-known ports"],
+            "correctAnswer": "Well-known ports"
+          },
+          {
+            "question": "Which Windows command would display protocol, port, and connection state information?",
+            "options": ["Ipconfig /all", "Ping", "Netstat", "Traceroute"],
+            "correctAnswer": "Netstat"
+          },
+          {
+            "question": "Which of the following would be valid source and destination ports for a host connecting to an email server?",
+            "options": ["Source: 25, Destination: 49152", "Source: 80, Destination: 49152", "Source: 49152, Destination: 25", "Source: 49152, Destination: 80"],
+            "correctAnswer": "Source: 49152, Destination: 25"
+          },
+          {
+            "question": "Which control bit flags are used during the three-way handshake?",
+            "options": ["ACK and FIN", "FIN and RESET", "RESET and SYN", "SYN and ACK"],
+            "correctAnswer": "SYN and ACK"
+          },
+          {
+            "question": "How many exchanges are needed to end both sessions between two hosts?",
+            "options": ["One exchange", "Two exchanges", "Three exchanges", "Four exchanges", "Five exchanges"],
+            "correctAnswer": "Four exchanges"
+          },
+          {
+            "question": "What field is used by the destination host to reassemble segments into the original order?",
+            "options": ["Control Bits", "Destination Port", "Sequence Number", "Source Port", "Window Size"],
+            "correctAnswer": "Sequence Number"
+          },
+          {
+            "question": "What field is used to provide flow control?",
+            "options": ["Control Bits", "Destination Port", "Sequence Number", "Source Port", "Window Size"],
+            "correctAnswer": "Window Size"
+          },
+          {
+            "question": "What happens when a sending host senses there is congestion?",
+            "options": [
+              "The receiving host increases the number of bytes it sends before receiving an acknowledgment from the sending host.",
+              "The receiving host reduces the number of bytes it sends before receiving an acknowledgment from the sending host.",
+              "The sending host increases the number of bytes it sends before receiving an acknowledgment from the destination host.",
+              "The sending host reduces the number of bytes it sends before receiving an acknowledgment from the destination host."
+            ],
+            "correctAnswer": "The sending host reduces the number of bytes it sends before receiving an acknowledgment from the destination host."
+          },
+          {
+            "question": "Why is UDP desirable for protocols that make simple request and reply transactions?",
+            "options": ["Flow Control", "Low overhead", "Reliability", "Same-order delivery"],
+            "correctAnswer": "Low overhead"
+          },
+          {
+            "question": "Which UDP datagram reassembly statement is true?",
+            "options": ["UDP does not reassemble the data.", "UDP reassembles the data in the order that it was received.", "UDP reassembles the data using control bits.", "UDP reassembles the data using sequence numbers."],
+            "correctAnswer": "UDP does not reassemble the data."
+          },
+          {
+            "question": "Which of the following would be valid source and destination ports for a host connecting to a DNS server?",
+            "options": ["Source: 53, Destination: 49152", "Source: 1812, Destination: 49152", "Source: 49152, Destination: 53", "Source: 49152, Destination: 1812"],
+            "correctAnswer": "Source: 49152, Destination: 53"
+          },
+          {
+            "question": "Which transport layer feature is used to establish a connection-oriented session?",
+            "options": ["UDP ACK flag", "TCP 3-way handshake", "UDP sequence number", "TCP port number"],
+            "correctAnswer": "TCP 3-way handshake"
+          },
+          {
+            "question": "What is the complete range of TCP and UDP well-known ports?",
+            "options": ["0 to 255", "0 to 1023", "256 - 1023", "1024 - 49151"],
+            "correctAnswer": "0 to 1023"
+          },
+          {
+            "question": "What is a socket?",
+            "options": [
+              "The combination of the source and destination IP address and source and destination Ethernet address",
+              "The combination of a source IP address and port number or a destination IP address and port number",
+              "The combination of the source and destination sequence and acknowledgment numbers",
+              "The combination of the source and destination sequence numbers and port numbers"
+            ],
+            "correctAnswer": "The combination of a source IP address and port number or a destination IP address and port number"
+          },
+          {
+            "question": "How does a networked server manage requests from multiple clients for different services?",
+            "options": [
+              "The server sends all requests through a default gateway.",
+              "Each request has a combination of source and destination port numbers, coming from a unique IP address.",
+              "The server uses IP addresses to identify different services.",
+              "Each request is tracked through the physical address of the client."
+            ],
+            "correctAnswer": "Each request has a combination of source and destination port numbers, coming from a unique IP address."
+          },
+          {
+            "question": "What happens if part of an FTP message is not delivered to the destination?",
+            "options": [
+              "The message is lost because FTP does not use a reliable delivery method.",
+              "The FTP source host sends a query to the destination host.",
+              "The part of the FTP message that was lost is re-sent.",
+              "The entire FTP message is re-sent."
+            ],
+            "correctAnswer": "The part of the FTP message that was lost is re-sent."
+          },
+          {
+            "question": "What type of applications are best suited for using UDP?",
+            "options": [
+              "Applications that are sensitive to delay",
+              "Applications that need reliable delivery",
+              "Applications that require retransmission of lost segments",
+              "Applications that are sensitive to packet loss"
+            ],
+            "correctAnswer": "Applications that are sensitive to delay"
+          },
+          {
+            "question": "What is one way that the TCP protocol addresses congestion after segment loss?",
+            "options": [
+              "The source decreases the amount of data that it transmits before it receives an acknowledgement from the destination.",
+              "The source decreases the window size to decrease the rate of transmission from the destination.",
+              "The destination decreases the window size.",
+              "The destination sends fewer acknowledgement messages in order to conserve bandwidth."
+            ],
+            "correctAnswer": "The source decreases the amount of data that it transmits before it receives an acknowledgement from the destination."
+          },
+          {
+            "question": "Which two operations are provided by TCP but not by UDP?",
+            "options": [
+              "Identifying the applications",
+              "Acknowledging received data",
+              "Identifying individual conversations",
+              "Retransmitting any unacknowledged data",
+              "Reconstructing data in the order received"
+            ],
+            "correctAnswers": [
+              "Acknowledging received data",
+              "Retransmitting any unacknowledged data"
+            ]
+          },
+          {
+            "question": "What is the purpose of using a source port number in a TCP communication?",
+            "options": [
+              "To notify the remote device that the conversation is over",
+              "To assemble the segments that arrived out of order",
+              "To keep track of multiple conversations between devices",
+              "To inquire for a nonreceived segment"
+            ],
+            "correctAnswer": "To keep track of multiple conversations between devices"
+          },
+          {
+            "question": "Which two flags in the TCP header are used in a TCP three-way handshake to establish connectivity?",
+            "options": ["ACK", "FIN", "PSH", "RST", "SYN", "URG"],
+            "correctAnswers": ["SYN", "ACK"]
+          },
+          {
+            "question": "What TCP mechanism is used to enhance performance by allowing a device to continuously send a steady stream of segments?",
+            "options": ["Three-way handshake", "Socket pair", "Two-way handshake", "Sliding window"],
+            "correctAnswer": "Sliding window"
+          },
+          {
+            "question": "Which action is performed by a client when establishing communication with a server via UDP?",
+            "options": [
+              "The client sets the window size for the session.",
+              "The client sends an ISN to the server to start the 3-way handshake.",
+              "The client randomly selects a source port number.",
+              "The client sends a synchronization segment to begin the session."
+            ],
+            "correctAnswer": "The client randomly selects a source port number."
+          },
+          {
+            "question": "Which two services or protocols use the preferred UDP protocol for fast transmission and low overhead?",
+            "options": ["FTP", "DNS", "HTTP", "POP3", "VoIP"],
+            "correctAnswers": ["DNS", "VoIP"]
+          },
+          {
+            "question": "Which number or set of numbers represents a socket?",
+            "options": ["01-23-45-67-89-AB", "21", "192.168.1.1:80", "10.1.1.15"],
+            "correctAnswer": "192.168.1.1:80"
+          },
+          {
+            "question": "What is a responsibility of transport layer protocols?",
+            "options": [
+              "Providing network access",
+              "Tracking individual conversations",
+              "Determining the best path to forward a packet",
+              "Translating private IP addresses to public IP addresses"
+            ],
+            "correctAnswer": "Tracking individual conversations"
+          },
+          {
+            "question": "This layer of the OSI model is concerned with the protocols that exchange data between programs running on hosts.",
+            "options": ["Application", "Transport", "Network", "Physical"],
+            "correctAnswer": "Application"
+          },
+          {
+            "question": "MKV, GIF, and JPG standards are associated with which OSI layer?",
+            "options": ["Application", "Presentation", "Session", "Transport"],
+            "correctAnswer": "Presentation"
+          },
+          {
+            "question": "This is a function of the OSI session layer.",
+            "options": ["Compress and decompress data", "Provide an interface between applications", "Format data for the application layer", "Exchange of information to initiate dialog between peers"],
+            "correctAnswer": "Exchange of information to initiate dialog between peers"
+          },
+          {
+            "question": "Which peer-to-peer application allows users to share pieces of many files with each other at the same time?",
+            "options": ["Hybrid", "Gnutella", "BitTorrent"],
+            "correctAnswer": "BitTorrent"
+          },
+          {
+            "question": "Which of the following is a feature of the Gnutella protocol?",
+            "options": ["Users can share whole files with other users.", "Users can share pieces of files with other users.", "Users can access an index server to get the location of resources shared by other users."],
+            "correctAnswer": "Users can share whole files with other users."
+          },
+          {
+            "question": "This message type is used when uploading data files to a web server.",
+            "options": ["GET", "POST", "PUT"],
+            "correctAnswer": "POST"
+          },
+          {
+            "question": "This protocol is used by a web browser to establish a connection to a web server.",
+            "options": ["HTTP", "SSL", "IMAP", "SMTP"],
+            "correctAnswer": "HTTP"
+          },
+          {
+            "question": "This protocol is used by a client to send email to a mail server.",
+            "options": ["POP", "SMTP", "IMAP", "HTTP"],
+            "correctAnswer": "SMTP"
+          },
+          {
+            "question": "Which is a feature of IMAP?",
+            "options": [
+              "It uploads email messages to a server.",
+              "It listens passively on port 110 for client requests.",
+              "It downloads a copy of email messages leaving the original on the server."
+            ],
+            "correctAnswer": "It downloads a copy of email messages leaving the original on the server."
+          },
+          {
+            "question": "Which of the following DNS record types is used to resolve IPv6 addresses?",
+            "options": ["A", "NS", "AAAA", "MX"],
+            "correctAnswer": "AAAA"
+          },
+          {
+            "question": "Which of the following is displayed by the nslookup utility?",
+            "options": ["The configured default DNS server", "The IP address of the end device", "All cached DNS entries"],
+            "correctAnswer": "The configured default DNS server"
+          },
+          {
+            "question": "Which of the following DNS resource record types resolves authoritative name servers?",
+            "options": ["NS", "A", "MX", "AAAA"],
+            "correctAnswer": "NS"
+          },
+          {
+            "question": "How many connections are required by FTP between client and server?",
+            "options": ["1", "2", "3", "4"],
+            "correctAnswer": "2"
+          },
+          {
+            "question": "Which of these ports are used by FTP?",
+            "options": ["20", "21", "25", "110"],
+            "correctAnswers": ["20", "21"]
+          },
+          {
+            "question": "On a home network, which device is most likely to provide dynamic IPv4 addressing to clients on the home network?",
+            "options": ["A dedicated file server", "A home router", "An ISP DHCP server", "A DNS server"],
+            "correctAnswer": "A home router"
+          },
+          {
+            "question": "What part of the URL, http://www.cisco.com/index.html, represents the top-level DNS domain?",
+            "options": [".com", "Www", "Http", "Index"],
+            "correctAnswer": ".com"
+          },
+          {
+            "question": "What are two characteristics of the application layer of the TCP/IP model?",
+            "options": [
+              "Responsibility for logical addressing",
+              "Responsibility for physical addressing",
+              "The creation and maintenance of dialogue between source and destination applications",
+              "Closest to the end user"
+            ],
+            "correctAnswers": [
+              "The creation and maintenance of dialogue between source and destination applications",
+              "Closest to the end user"
+            ]
+          },
+          {
+            "question": "What message type is used by an HTTP client to request data from a web server?",
+            "options": ["GET", "POST", "PUT", "ACK"],
+            "correctAnswer": "GET"
+          },
+          {
+            "question": "Which protocol can be used to transfer messages from an email server to an email client?",
+            "options": ["SMTP", "POP3", "SNMP", "HTTP"],
+            "correctAnswer": "POP3"
+          },
+          {
+            "question": "Which application layer protocol is used to provide file-sharing and print services to Microsoft applications?",
+            "options": ["HTTP", "SMTP", "DHCP", "SMB"],
+            "correctAnswer": "SMB"
+          },
+          {
+            "question": "Which three protocols or standards are used at the application layer of the TCP/IP model?",
+            "options": ["TCP", "HTTP", "MPEG", "GIF", "IP", "UDP"],
+            "correctAnswers": ["HTTP", "MPEG", "GIF"]
+          },
+          {
+            "question": "Why is DHCP for IPv4 preferred for use on large networks?",
+            "options": [
+              "Large networks send more requests for domain to IP address resolution than do smaller networks.",
+              "DHCP uses a reliable transport layer protocol.",
+              "It prevents sharing of files that are copyrighted.",
+              "It is a more efficient way to manage IPv4 addresses than static address assignment is.",
+              "Hosts on large networks require more IPv4 addressing configuration settings than do hosts on small networks."
+            ],
+            "correctAnswer": "It is a more efficient way to manage IPv4 addresses than static address assignment is."
+          },
+          {
+            "question": "An author is uploading one chapter document from a personal computer to a file server of a book publisher. What role is the personal computer assuming in this network model?",
+            "options": ["Client", "Master", "Server", "Slave", "Transient"],
+            "correctAnswer": "Client"
+          },
+          {
+            "question": "Which statement is true about FTP?",
+            "options": [
+              "The client can choose if FTP is going to establish one or two connections with the server.",
+              "The client can download data from or upload data to the server.",
+              "FTP is a peer-to-peer application.",
+              "FTP does not provide reliability during data transmission."
+            ],
+            "correctAnswer": "The client can download data from or upload data to the server."
+          },
+          {
+            "question": "A wireless host needs to request an IPv4 address. What protocol would be used to process the request?",
+            "options": ["FTP", "HTTP", "DHCP", "ICMP", "SNMP"],
+            "correctAnswer": "DHCP"
+          },
+          {
+            "question": "Which TCP/IP model layer is closest to the end user?",
+            "options": ["Application", "Internet", "Network access", "Transport"],
+            "correctAnswer": "Application"
+          },
+          {
+            "question": "When retrieving email messages, which protocol allows for easy, centralized storage and backup of emails that would be desirable for a small- to medium-sized business?",
+            "options": ["IMAP", "POP", "SMTP", "HTTPS"],
+            "correctAnswer": "IMAP"
+          },
+          {
+            "question": "Which protocol uses encryption?",
+            "options": ["DHCP", "DNS", "FTP", "HTTPS"],
+            "correctAnswer": "HTTPS"
+          },
+          {
+            "question": "Which two tasks can be performed by a local DNS server?",
+            "options": [
+              "Providing IP addresses to local hosts",
+              "Allowing data transfer between two network devices",
+              "Mapping name-to-IP addresses for internal hosts",
+              "Forwarding name resolution requests between servers",
+              "Retrieving email messages"
+            ],
+            "correctAnswers": [
+              "Mapping name-to-IP addresses for internal hosts",
+              "Forwarding name resolution requests between servers"
+            ]
+          },
+          {
+            "question": "What kind of port must be requested from IANA in order to be used with a specific application?",
+            "options": ["source port", "dynamic port", "registered port", "private port"],
+            "correctAnswer": "registered port"
+          },
+          {
+            "question": "Which factor determines TCP window size?",
+            "options": [
+              "the number of services included in the TCP segment",
+              "the amount of data the source is capable of sending at one time",
+              "the amount of data to be transmitted",
+              "the amount of data the destination can process at one time"
+            ],
+            "correctAnswer": "the amount of data the destination can process at one time"
+          },
+          {
+            "question": "Why does HTTP use TCP as the transport layer protocol?",
+            "options": [
+              "because HTTP requires reliable delivery",
+              "to ensure the fastest possible download speed",
+              "because HTTP is a best-effort protocol",
+              "because transmission errors can be tolerated easily"
+            ],
+            "correctAnswer": "because HTTP requires reliable delivery"
+          },
+          {
+            "question": "Which field in the TCP header indicates the status of the three-way handshake process?",
+            "options": ["checksum", "control bits", "window", "reserved"],
+            "correctAnswer": "control bits"
+          },
+          {
+            "question": "What is a characteristic of UDP?",
+            "options": [
+              "UDP reassembles the received datagrams in the order they were received.",
+              "UDP only passes data to the network when the destination is ready to receive the data.",
+              "UDP datagrams take the same path and arrive in the correct order at the destination.​",
+              "Applications that use UDP are always considered unreliable.​"
+            ],
+            "correctAnswer": "Applications that use UDP are always considered unreliable.​"
+          },
+          {
+            "question": "What does a client do when it has UDP datagrams to send?",
+            "options": [
+              "It just sends the datagrams.",
+              "It queries the server to see if it is ready to receive data.",
+              "It sends to the server a segment with the SYN flag set to synchronize the conversation.",
+              "It sends a simplified three-way handshake to the server."
+            ],
+            "correctAnswer": "It just sends the datagrams."
+          },
+          {
+            "question": "Which flag in the TCP header is used in response to a received FIN in order to terminate connectivity between two network devices?",
+            "options": ["RST", "FIN", "ACK", "SYN"],
+            "correctAnswer": "ACK"
+          },
+          {
+            "question": "Which application layer protocol uses message types such as GET, PUT, and POST?",
+            "options": ["DNS", "POP3", "SMTP", "DHCP", "HTTP"],
+            "correctAnswer": "HTTP"
+          },
+          {
+            "question": "What is an advantage of SMB over FTP?​",
+            "options": [
+              "SMB clients can establish a long-term connection to the server.​",
+              "Only with SMB can data transfers occur in both directions.",
+              "SMB is more reliable than FTP because SMB uses TCP and FTP uses UDP.​",
+              "Only SMB establishes two simultaneous connections with the client, making the data transfer faster.​"
+            ],
+            "correctAnswer": "SMB clients can establish a long-term connection to the server.​"
+          },
+          {
+            "question": "What is the function of the HTTP GET message?",
+            "options": [
+              "to upload content to a web server from a web client",
+              "to retrieve client email from an email server using TCP port 110",
+              "to send error information from a web server to a web client",
+              "to request an HTML page from a web server"
+            ],
+            "correctAnswer": "to request an HTML page from a web server"
+          },
+          {
+            "question": "Which OSI layer provides the interface between the applications used to communicate and the underlying network over which messages are transmitted?",
+            "options": ["presentation", "application", "session", "transport"],
+            "correctAnswer": "application"
+          },
+          {
+            "question": "What do the client/server and peer-to-peer network models have in common?",
+            "options": [
+              "Both models require the use of TCP/IP-based protocols.",
+              "Both models have dedicated servers.",
+              "Both models support devices in server and client roles.",
+              "Both models are used only in the wired network environment."
+            ],
+            "correctAnswer": "Both models support devices in server and client roles."
+          },
+          {
+            "question": "In what networking model would eDonkey, eMule, BitTorrent, Bitcoin, and LionShare be used?",
+            "options": ["peer-to-peer", "client-based", "point-to-point", "master-slave"],
+            "correctAnswer": "peer-to-peer"
+          },
+          {
+            "question": "What is a common protocol that is used with peer-to-peer applications such as WireShare, Bearshare, and Shareaza?",
+            "options": ["Gnutella", "POP", "Ethernet", "SMTP"],
+            "correctAnswer": "Gnutella"
+          },
+          {
+            "question": "What type of information is contained in a DNS MX record?",
+            "options": [
+              "the IP address for an FQDN entry",
+              "the FQDN of the alias used to identify a service",
+              "the IP address of an authoritative name server",
+              "the domain name mapped to mail exchange servers"
+            ],
+            "correctAnswer": "the domain name mapped to mail exchange servers"
+          },
+          {
+            "question": "Which scenario describes a function provided by the transport layer?",
+            "options": [
+              "A student is using a classroom VoIP phone to call home. The unique identifier burned into the phone is a transport layer address used to contact another network device on the same network.",
+              "A student is playing a short web-based movie with sound. The movie and sound are encoded within the transport layer header.",
+              "A corporate worker is accessing a web server located on a corporate network. The transport layer formats the screen so the web page appears properly no matter what device is being used to view the web site.",
+              "A student has two web browser windows open in order to access two web sites. The transport layer ensures the correct web page is delivered to the correct browser window."
+            ],
+            "correctAnswer": "A student has two web browser windows open in order to access two web sites. The transport layer ensures the correct web page is delivered to the correct browser window."
+          },
+          {
+            "question": "A PC that is communicating with a web server has a TCP window size of 6,000 bytes when sending data and a packet size of 1,500 bytes. Which byte of information will the web server acknowledge after it has received two packets of data from the PC?",
+            "options": ["4501", "3001", "4500", "1500"],
+            "correctAnswer": "3001"
+          },
+          {
+            "question": "A client creates a packet to send to a server. The client is requesting FTP service. What number will be used as the destination port number in the sending packet?",
+            "options": ["21", "69", "80", "67"],
+            "correctAnswer": "21"
+          },
+          {
+            "question": "What kind of threat is described when a threat actor sends you a virus that can reformat your hard drive?",
+            "options": ["Data loss or manipulation", "Disruption of service", "Identify theft", "Information theft"],
+            "correctAnswer": "Data loss or manipulation"
+          },
+          {
+            "question": "What kind of threat is described when a threat actor makes illegal online purchases using stolen credit information?",
+            "options": ["Data loss or manipulation", "Disruption of service", "Identify theft", "Information theft"],
+            "correctAnswer": "Identify theft"
+          },
+          {
+            "question": "What kind of threat is described when a threat actor prevents legal users from accessing data services?",
+            "options": ["Data loss or manipulation", "Disruption of service", "Identify theft", "Information theft"],
+            "correctAnswer": "Disruption of service"
+          },
+          {
+            "question": "What kind of threat is described when a threat actor steals scientific research data?",
+            "options": ["Data loss or manipulation", "Disruption of service", "Identify theft", "Information theft"],
+            "correctAnswer": "Information theft"
+          },
+          {
+            "question": "What kind of threat is described when a threat actor overloads a network to deny other users network access?",
+            "options": ["Data loss or manipulation", "Disruption of service", "Identify theft", "Information theft"],
+            "correctAnswer": "Disruption of service"
+          },
+          {
+            "question": "What kind of threat is described when a threat actor alters data records?",
+            "options": ["Data loss or manipulation", "Disruption of service", "Identify theft", "Information theft"],
+            "correctAnswer": "Data loss or manipulation"
+          },
+          {
+            "question": "What kind of threat is described when a threat actor is stealing the user database of a company?",
+            "options": ["Data loss or manipulation", "Disruption of service", "Identify theft", "Information theft"],
+            "correctAnswer": "Information theft"
+          },
+          {
+            "question": "What kind of threat is described when a threat actor impersonates another person to obtain credit information about that person?",
+            "options": ["Data loss or manipulation", "Disruption of service", "Identify theft", "Information theft"],
+            "correctAnswer": "Identify theft"
+          },
+          {
+            "question": "What type of attack is described when malformed web requests slow a server?",
+            "options": ["Access attack", "Denial of service (DoS) attack", "Malware attack", "Reconnaissance attack"],
+            "correctAnswer": "Denial of service (DoS) attack"
+          },
+          {
+            "question": "What type of attack is described when a workstation is compromised due to weak FTP security?",
+            "options": ["Access attack", "Denial of service (DoS) attack", "Malware attack", "Reconnaissance attack"],
+            "correctAnswer": "Access attack"
+          },
+          {
+            "question": "What type of attack is described when fake system cleaners corrupt a computer?",
+            "options": ["Access attack", "Denial of service (DoS) attack", "Malware attack", "Reconnaissance attack"],
+            "correctAnswer": "Malware attack"
+          },
+          {
+            "question": "What type of attack is described when a flash drive installs spying malware?",
+            "options": ["Access attack", "Denial of service (DoS) attack", "Malware attack", "Reconnaissance attack"],
+            "correctAnswer": "Malware attack"
+          },
+          {
+            "question": "What type of attack is described when a compromised print server sends malicious packets?",
+            "options": ["Access attack", "Denial of service (DoS) attack", "Malware attack", "Reconnaissance attack"],
+            "correctAnswer": "Malware attack"
+          },
+          {
+            "question": "What type of attack is described when attackers probe multiple IPs and ports?",
+            "options": ["Access attack", "Denial of service (DoS) attack", "Malware attack", "Reconnaissance attack"],
+            "correctAnswer": "Reconnaissance attack"
+          },
+          {
+            "question": "Which device controls traffic between two or more networks to help prevent unauthorized access?",
+            "options": ["AAA Server", "Firewall", "ESA/WSA", "IPS"],
+            "correctAnswer": "Firewall"
+          },
+          {
+            "question": "Which device is used by other network devices to authenticate and authorize management access?",
+            "options": ["AAA Server", "Firewall", "ESA/WSA", "IPS"],
+            "correctAnswer": "AAA Server"
+          },
+          {
+            "question": "Which backup policy consideration is concerned with using strong passwords to protect the backups and for restoring data?",
+            "options": ["Frequency", "Storage", "Security", "Validation"],
+            "correctAnswer": "Security"
+          },
+          {
+            "question": "This zone is used to house servers that should be accessible to outside users.",
+            "options": ["Inside", "Outside", "Internet", "DMZ"],
+            "correctAnswer": "DMZ"
+          },
+          {
+            "question": "Which is appropriate for providing endpoint security?",
+            "options": ["A AAA server", "Antivirus software", "A server-based firewall", "An ESA/WSA"],
+            "correctAnswer": "Antivirus software"
+          },
+          {
+            "question": "Which component is designed to protect against unauthorized communications to and from a computer?",
+            "options": ["Security center", "Port scanner", "Antimalware", "Antivirus", "Firewall"],
+            "correctAnswer": "Firewall"
+          },
+          {
+            "question": "Which command will block login attempts on RouterA for a period of 30 seconds if there are 2 failed login attempts within 10 seconds?",
+            "options": [
+              "RouterA(config)# login block-for 10 attempts 2 within 30",
+              "RouterA(config)# login block-for 30 attempts 2 within 10",
+              "RouterA(config)# login block-for 2 attempts 30 within 10",
+              "RouterA(config)# login block-for 30 attempts 10 within 2"
+            ],
+            "correctAnswer": "RouterA(config)# login block-for 30 attempts 2 within 10"
+          },
+          {
+            "question": "What is the purpose of the network security accounting function?",
+            "options": [
+              "To require users to prove who they are",
+              "To determine which resources a user can access",
+              "To keep track of the actions of a user",
+              "To provide challenge and response questions"
+            ],
+            "correctAnswer": "To keep track of the actions of a user"
+          },
+          {
+            "question": "What type of attack may involve the use of tools such as nslookup and fping?",
+            "options": ["Access attack", "Reconnaissance attack", "Denial of service attack", "Worm attack"],
+            "correctAnswer": "Reconnaissance attack"
+          },
+          {
+            "question": "Which benefit does SSH offer over Telnet for remotely managing a router?",
+            "options": ["Encryption", "TCP usage", "Authorization", "Connections via multiple VTY lines"],
+            "correctAnswer": "Encryption"
+          },
+          {
+            "question": "What is one of the most effective security tools available for protecting users from external threats?",
+            "options": ["Firewalls", "Router that run AAA services", "Patch servers", "Password encryption techniques"],
+            "correctAnswer": "Firewalls"
+          },
+          {
+            "question": "Which type of network threat is intended to prevent authorized users from accessing resources?",
+            "options": ["DoS attacks", "Access attacks", "Reconnaissance attacks", "Trust exploitation"],
+            "correctAnswer": "DoS attacks"
+          },
+          {
+            "question": "Which malicious code attack is self-contained and tries to exploit a specific vulnerability in a system being attacked?",
+            "options": ["Virus", "Worm", "Trojan horse", "Social engineering"],
+            "correctAnswer": "Worm"
+          },
+          {
+            "question": "Some routers and switches in a wiring closet malfunctioned after an air conditioning unit failed. What type of threat does this situation describe?",
+            "options": ["Configuration", "Environmental", "Electrical", "Maintenance"],
+            "correctAnswer": "Environmental"
+          },
+          {
+            "question": "What does the term vulnerability mean?",
+            "options": [
+              "A weakness that makes a target susceptible to an attack",
+              "A computer that contains sensitive information",
+              "A method of attack to exploit a target",
+              "A known target or victim machine",
+              "A potential threat that a hacker creates"
+            ],
+            "correctAnswer": "A weakness that makes a target susceptible to an attack"
+          },
+          {
+            "question": "What is the objective of a network reconnaissance attack?",
+            "options": [
+              "Discovery and mapping of systems",
+              "Unauthorized manipulation of data",
+              "Disabling network systems or services",
+              "Denying access to resources by legitimate users"
+            ],
+            "correctAnswer": "Discovery and mapping of systems"
+          },
+          {
+            "question": "For security reasons a network administrator needs to ensure that local computers cannot ping each other. Which settings can accomplish this task?",
+            "options": ["Smartcard settings", "Firewall settings", "MAC address settings", "File system settings"],
+            "correctAnswer": "Firewall settings"
+          },
+          {
+            "question": "A network administrator establishes a connection to a switch via SSH. What characteristic uniquely describes the SSH connection?",
+            "options": [
+              "Out-of-band access to a switch through the use of a virtual terminal with password authentication",
+              "Remote access to the switch through the use of a telephone dialup connection",
+              "On-site access to a switch through the use of a directly connected PC and a console cable",
+              "Remote access to a switch where data is encrypted during the session",
+              "Direct access to the switch through the use of a terminal emulation program"
+            ],
+            "correctAnswer": "Remote access to a switch where data is encrypted during the session"
+          },
+          {
+            "question": "Which statement correctly relates to a small network?",
+            "options": ["Small networks are complex.", "Small networks require an IT department to maintain.", "The majority of businesses are small."],
+            "correctAnswer": "The majority of businesses are small."
+          },
+          {
+            "question": "Which factor must be considered when selecting network devices?",
+            "options": ["Color", "Console connections", "Cost", "Elasticity"],
+            "correctAnswer": "Cost"
+          },
+          {
+            "question": "What is necessary to plan and use when implementing a network?",
+            "options": ["Device names", "IP addressing scheme", "MAC addressing scheme", "Printer location"],
+            "correctAnswer": "IP addressing scheme"
+          },
+          {
+            "question": "What is required to maintain a high degree of reliability and eliminate single points of failure?",
+            "options": ["Accessibility", "Expandability", "Integrity", "Redundancy"],
+            "correctAnswer": "Redundancy"
+          },
+          {
+            "question": "Which software installed on key hosts can reveal the types of network traffic flowing through the network?",
+            "options": ["Linux", "MacOS", "SSH", "Windows", "Wireshark"],
+            "correctAnswer": "Wireshark"
+          },
+          {
+            "question": "What Windows 10 tool is useful to determine which applications are using network services on a host?",
+            "options": ["Control panel", "Data Usage", "File Manager", "Windows Defender Firewall", "Windows Explorer"],
+            "correctAnswer": "Data Usage"
+          },
+          {
+            "question": "A technician is troubleshooting a network problem and has just established a theory of probable causes. What would be the next step in the troubleshooting process?",
+            "options": [
+              "Document findings, actions, and outcomes.",
+              "Establish a plan of action and implement the solution.",
+              "Identify the problem.",
+              "Test the theory to determine cause.",
+              "Verify solution and implement preventive measures."
+            ],
+            "correctAnswer": "Test the theory to determine cause."
+          },
+          {
+            "question": "A technician is troubleshooting a network problem. After troubleshooting, the technician concludes that a switch should be replaced. What should the technician do next?",
+            "options": [
+              "Email all users to let them know they are replacing a switch.",
+              "Escalate the trouble ticket to the manager to approve the change.",
+              "Purchase a new switch and replace the defective one.",
+              "Resolve the problem."
+            ],
+            "correctAnswer": "Escalate the trouble ticket to the manager to approve the change."
+          },
+          {
+            "question": "A technician has established a remote connection to router R1 to observe debug output. The technician enters the debug ip icmp command then pings a remote destination. However, no output is displayed. Which command would the technician have to enter to display log messages on a remote connection?",
+            "options": ["monitor debug output", "monitor terminal", "terminal monitor", "terminal monitor debug"],
+            "correctAnswer": "terminal monitor"
+          },
+          {
+            "question": "Which network design consideration would be more important to a large corporation than to a small business?",
+            "options": ["Internet router", "Firewall", "Low port density switch", "Redundancy"],
+            "correctAnswer": "Redundancy"
+          },
+          {
+            "question": "A newly hired network technician is given the task of ordering new hardware for a small business with a large growth forecast. Which primary factor should the technician be concerned with when choosing the new devices?",
+            "options": [
+              "Devices with a fixed number and type of interfaces",
+              "Devices that have support for network monitoring",
+              "Redundant devices",
+              "Devices with support for modularity"
+            ],
+            "correctAnswer": "Devices with support for modularity"
+          },
+          {
+            "question": "What type of traffic would most likely have the highest priority through the network?",
+            "options": ["FTP", "Instant messaging", "Voice", "SNMP"],
+            "correctAnswer": "Voice"
+          },
+          {
+            "question": "A network technician is investigating network connectivity from a PC to a remote host with the address 10.1.1.5. Which command, when issued on a Windows PC, will display the path to the remote host?",
+            "options": ["trace 10.1.1.5", "traceroute 10.1.1.5", "tracert 10.1.1.5", "ping 10.1.1.5"],
+            "correctAnswer": "tracert 10.1.1.5"
+          },
+          {
+            "question": "A user is unable to reach the website when typing http://www.cisco.com in a web browser, but can reach the same site by typing http://72.163.4.161. What is the issue?",
+            "options": ["Default gateway", "DHCP", "DNS", "TCP/IP protocol stack"],
+            "correctAnswer": "DNS"
+          },
+          {
+            "question": "Where are Cisco IOS debug output messages sent by default?",
+            "options": ["Memory buffers", "Vty lines", "Syslog server", "Console line"],
+            "correctAnswer": "Console line"
+          },
+          {
+            "question": "Which element of scaling a network involves identifying the physical and logical topologies?",
+            "options": ["Traffic analysis", "Network documentation", "Device inventory", "Cost analysis"],
+            "correctAnswer": "Network documentation"
+          },
+          {
+            "question": "What mechanism can be implemented in a small network to help minimize network latency for real-time streaming applications?",
+            "options": ["QoS", "PoE", "AAA", "ICMP"],
+            "correctAnswer": "QoS"
+          },
+          {
+            "question": "Which process failed if a computer cannot access the internet and received an IP address of 169.254.142.5?",
+            "options": ["IP", "DNS", "DHCP", "HTTP"],
+            "correctAnswer": "DHCP"
+          },
+          {
+            "question": "A small company has only one router as the exit point to its ISP. Which solution could be adopted to maintain connectivity if the router itself, or its connection to the ISP, fails?",
+            "options": [
+              "Activate another router interface that is connected to the ISP, so the traffic can flow through it.",
+              "Have a second router that is connected to another ISP.",
+              "Purchase a second least-cost link from another ISP to connect to this router.",
+              "Add more interfaces to the router that is connected to the internal network."
+            ],
+            "correctAnswer": "Have a second router that is connected to another ISP."
+          },
+          {
+            "question": "When should an administrator establish a network baseline?",
+            "options": [
+              "When the traffic is at peak in the network",
+              "When there is a sudden drop in traffic",
+              "At the lowest point of traffic in the network",
+              "At regular intervals over a period of time"
+            ],
+            "correctAnswer": "At regular intervals over a period of time"
+          },
+          {
+            "question": "A network technician suspects that a particular network connection between two Cisco switches is having a duplex mismatch. Which command would the technician use to see the Layer 1 and Layer 2 details of a switch port?",
+            "options": ["show interfaces", "show running-config", "show ip interface brief​", "show mac-address-table"],
+            "correctAnswer": "show interfaces"
+          },
+          {
+            "question": "Which statement is true about CDP on a Cisco device?​",
+            "options": [
+              "The show cdp neighbor detail command will reveal the IP address of a neighbor only if there is Layer 3 connectivity​.",
+              "To disable CDP globally, the no cdp enable command in interface configuration mode must be used.",
+              "CDP can be disabled globally or on a specific interface​.",
+              "Because it runs at the data link layer​, the CDP protocol can only be implemented in switches."
+            ],
+            "correctAnswer": "CDP can be disabled globally or on a specific interface​."
+          },
+          {
+            "question": "What factor should be considered in the design of a small network when devices are being chosen?",
+            "options": ["Cost of devices", "Redundancy", "Traffic analysis", "ISP"],
+            "correctAnswer": "Cost of devices"
+          },
+          {
+            "question": "Which example of malicious code would be classified as a Trojan horse?",
+            "options": [
+              "malware that can automatically spread from one system to another by exploiting a vulnerability in the target",
+              "malware that requires manual user intervention to spread between systems",
+              "malware that was written to look like a video game",
+              "malware that attaches itself to a legitimate program and spreads to other programs when launched"
+            ],
+            "correctAnswer": "malware that was written to look like a video game"
+          },
+          {
+            "question": "What is the difference between a virus and a worm?",
+            "options": [
+              "Worms self-replicate but viruses do not.",
+              "Viruses self-replicate but worms do not.",
+              "Worms require a host file but viruses do not.",
+              "Viruses hide in legitimate programs but worms do not."
+            ],
+            "correctAnswer": "Worms self-replicate but viruses do not."
+          },
+          {
+            "question": "A user is redesigning a network for a small company and wants to ensure security at a reasonable price. What approach is the user implementing?",
+            "options": [
+              "attack based",
+              "structured",
+              "risk based",
+              "layered"
+            ],
+            "correctAnswer": "layered"
+          },
+          {
+            "question": "When applied to a router, which command would help mitigate brute-force password attacks against the router?",
+            "options": [
+              "banner motd $Max failed logins = 5$",
+              "service password-encryption",
+              "exec-timeout 30",
+              "login block-for 60 attempts 5 within 60"
+            ],
+            "correctAnswer": "login block-for 60 attempts 5 within 60"
+          },
+          {
+            "question": "Which firewall feature is used to ensure that packets coming into a network are legitimate responses to requests initiated from internal hosts?",
+            "options": [
+              "Packet filtering",
+              "URL filtering",
+              "Application filtering",
+              "Stateful packet inspection"
+            ],
+            "correctAnswer": "Stateful packet inspection"
+          },
+          {
+            "question": "What is the role of an IPS?",
+            "options": [
+              "detecting and blocking of attacks in real time",
+              "connecting global threat information to Cisco network security devices",
+              "authenticating and validating traffic",
+              "filtering of nefarious websites"
+            ],
+            "correctAnswer": "detecting and blocking of attacks in real time"
+          },
+          {
+            "question": "Which attack involves a compromise of data that occurs between two end points?",
+            "options": [
+              "extraction of security parameters",
+              "denial-of-service",
+              "username enumeration",
+              "man-in-the-middle attack"
+            ],
+            "correctAnswer": "man-in-the-middle attack"
+          },
+          {
+            "question": "What feature of SSH makes it more secure than Telnet for a device management connection?",
+            "options": [
+              "random one-time port connection",
+              "login information and data encryption",
+              "confidentiality with IPsec",
+              "stronger password requirement"
+            ],
+            "correctAnswer": "login information and data encryption"
+          },
+          {
+            "question": "Which method is used to send a ping message specifying the source address for the ping?",
+            "options": [
+              "Issue the ping command after shutting down un-needed interfaces.",
+              "Issue the ping command from within interface configuration mode.",
+              "Issue the ping command without extended commands.",
+              "Issue the ping command without specifying a destination IP address."
+            ],
+            "correctAnswer": "Issue the ping command from within interface configuration mode."
+          },
+          {
+            "question": "A user reports a lack of network connectivity. The technician takes control of the user machine and attempts to ping other computers on the network and these pings fail. The technician pings the default gateway and that also fails. What can be determined for sure by the results of these tests?",
+            "options": [
+              "Nothing can be determined for sure at this point.",
+              "The router that is attached to the same network as the workstation is down.",
+              "The NIC in the PC is bad.",
+              "The TCP/IP protocol is not enabled."
+            ],
+            "correctAnswer": "The router that is attached to the same network as the workstation is down."
+          },
+          {
+            "question": "What characteristic describes spyware?",
+            "options": {
+              "A": "an attack that slows or crashes a device or network service",
+              "B": "the use of stolen credentials to access private data",
+              "C": "software that is installed on a user device and collects information about the user",
+              "D": "a network device that filters access and traffic coming into a network"
+            },
+            "correctAnswer": "C"
+          },
+          {
+            "question": "Which statement describes network security?",
+            "options": {
+              "A": "It synchronizes traffic flows using timestamps.",
+              "B": "It supports growth over time in accordance with approved network design procedures.",
+              "C": "It ensures sensitive corporate data is available for authorized users.",
+              "D": "It prioritizes data flows in order to give priority to delay-sensitive traffic."
+            },
+            "correctAnswer": "C"
+          },
+          {
+            "question": "What is a characteristic of a switch virtual interface (SVI)?​",
+            "options": {
+              "A": "Although it is a virtual interface, it needs to have physical hardware on the device associated with it.",
+              "B": "SVIs do not require the no shutdown command to become enabled.",
+              "C": "An SVI is created in software and requires a configured IP address and a subnet mask in order to provide remote access to the switch.",
+              "D": "SVIs come preconfigured on Cisco switches."
+            },
+            "correctAnswer": "C"
+          },
+          {
+            "question": "What is a user trying to determine when issuing a ping 10.1.1.1 command on a PC?",
+            "options": {
+              "A": "what type of device is at the destination",
+              "B": "if there is connectivity with the destination device",
+              "C": "if the TCP/IP stack is functioning on the PC without putting traffic on the wire",
+              "D": "the path that traffic will take to reach the destination"
+            },
+            "correctAnswer": "B"
+          },
+          {
+            "question": "Which PDU is processed when a host computer is de-encapsulating a message at the transport layer of the TCP/IP model?",
+            "options": {
+              "A": "segment",
+              "B": "frame",
+              "C": "bits",
+              "D": "packet"
+            },
+            "correctAnswer": "A"
+          },
+          {
+            "question": "What OSI physical layer term describes the measure of the transfer of bits across a medium over a given period of time?",
+            "options": {
+              "A": "latency",
+              "B": "goodput",
+              "C": "throughput",
+              "D": "bandwidth"
+            },
+            "correctAnswer": "D"
+          },
+          {
+            "question": "What type of IPv6 address is represented by ::1/128?",
+            "options": {
+              "A": "unspecified",
+              "B": "global unicast",
+              "C": "EUI-64 generated link-local",
+              "D": "loopback"
+            },
+            "correctAnswer": "D"
+          },
+          {
+            "question": "Which is the compressed format of the IPv6 address fe80:0000:0000:0000:0220:0b3f:f0e0:0029?",
+            "options": {
+              "A": "fe80:9ea0::2020::bf:e0:9290",
+              "B": "fe80:9ea:0:2200::fe0:290",
+              "C": "fe80::220:b3f:f0e0:29",
+              "D": "fe80:9ea0::2020:0:bf:e0:9290"
+            },
+            "correctAnswer": "C"
+          },
+          {
+            "question": "Which IPv6 address is one of the link-local addresses of the workstation?",
+            "options": {
+              "A": "::1/128",
+              "B": "2001:0:9d38:6ab8:30d0:115:3f57:fe4c/128",
+              "C": "fe80::/64",
+              "D": "fe80::30d0:115:3f57:fe4c/128"
+            },
+            "correctAnswer": "D"
+          },
+          {
+            "question": "What service is the client requesting for port number 22?",
+            "options": {
+              "A": "DHCP",
+              "B": "SSH",
+              "C": "DNS",
+              "D": "TFTP"
+            },
+            "correctAnswer": "B"
+          },
+          {
+            "question": "What does the value of the TCP window size specify?",
+            "options": {
+              "A": "the amount of data that can be sent before an acknowledgment is required",
+              "B": "a random number that is used in establishing a connection with the 3-way handshake",
+              "C": "the amount of data that can be sent at one time",
+              "D": "the total number of bits received during this TCP session"
+            },
+            "correctAnswer": "A"
+          },
+          {
+            "question": "To which TCP port group does the port 414 belong?",
+            "options": {
+              "A": "private or dynamic",
+              "B": "well-known",
+              "C": "registered",
+              "D": "public"
+            },
+            "correctAnswer": "C"
+          },
+          {
+            "question": "Which command is used to manually query a DNS server to resolve a specific host name?",
+            "options": {
+              "A": "nslookup",
+              "B": "tracert",
+              "C": "ipconfig /displaydns",
+              "D": "net"
+            },
+            "correctAnswer": "A"
+          },
+          {
+            "question": "What service is provided by POP3?",
+            "options": {
+              "A": "Uses encryption to provide secure remote access to network devices and servers.",
+              "B": "Allows remote access to network devices and servers.",
+              "C": "An application that allows real-time chatting among remote users.",
+              "D": "Retrieves email from the server by downloading the email to the local mail application of the client."
+            },
+            "correctAnswer": "D"
+          },
+          {
+            "question": "Which networking model is being used when two students share a folder directly?",
+            "options": {
+              "A": "client-based",
+              "B": "point-to-point",
+              "C": "master-slave",
+              "D": "peer-to-peer"
+            },
+            "correctAnswer": "D"
+          },
+          {
+            "question": "Which statement describes the characteristics of packet-filtering and stateful firewalls?",
+            "options": {
+              "A": "A packet-filtering firewall typically can filter up to the transport layer, whereas a stateful firewall can filter up to the session layer.",
+              "B": "A stateful firewall can filter application layer information, whereas a packet-filtering firewall cannot filter beyond the network layer.",
+              "C": "A packet-filtering firewall uses session layer information to track the state of a connection, whereas a stateful firewall uses application layer information to track the state of a connection.",
+              "D": "Both stateful and packet-filtering firewalls can filter at the application layer."
+            },
+            "correctAnswer": "A"
+          },
+          
+          {
+        "question": "Which is the compressed format of the IPv6 address fe80:0000:0000:0000:0220:0b3f:f0e0:0029?",
+        "options": {
+            "A": "fe80:9ea0::2020::bf:e0:9290",
+            "B": "fe80:9ea:0:2200::fe0:290",
+            "C": "fe80::220:b3f:f0e0:29",
+            "D": "fe80:9ea0::2020:0:bf:e0:9290"
+        },
+        "correctAnswer": "C"
+    },
+    {
+        "question": "A user issues the command netstat –r on a workstation. Which IPv6 address is one of the link-local addresses of the workstation?",
+        "options": {
+            "A": "::1/128",
+            "B": "2001:0:9d38:6ab8:30d0:115:3f57:fe4c/128",
+            "C": "fe80::/64",
+            "D": "fe80::30d0:115:3f57:fe4c/128"
+        },
+        "correctAnswer": "D"
+    },
+    {
+        "question": "What task might a user be trying to accomplish by using the ping 2001:db8:FACE:39::10 command?",
+        "options": {
+            "A": "creating a network performance benchmark to a server on the company intranet",
+            "B": "verifying that there is connectivity within the local network",
+            "C": "verifying that there is connectivity to the internet",
+            "D": "determining the path to reach the remote server"
+        },
+        "correctAnswer": "C"
+    },
+    {
+        "question": "A client packet is received by a server. The packet has a destination port number of 22. What service is the client requesting?",
+        "options": {
+            "A": "DHCP",
+            "B": "SSH",
+            "C": "DNS",
+            "D": "TFTP"
+        },
+        "correctAnswer": "B"
+    },
+    {
+        "question": "What does the value of the window size specify?",
+        "options": {
+            "A": "the amount of data that can be sent before an acknowledgment is required",
+            "B": "a random number that is used in establishing a connection with the 3-way handshake",
+            "C": "the amount of data that can be sent at one time",
+            "D": "the total number of bits received during this TCP session"
+        },
+        "correctAnswer": "A"
+    },
+    {
+        "question": "To which TCP port group does the port 414 belong?",
+        "options": {
+            "A": "private or dynamic",
+            "B": "well-known",
+            "C": "registered",
+            "D": "public"
+        },
+        "correctAnswer": "C"
+    },
+    {
+        "question": "Which command is used to manually query a DNS server to resolve a specific host name?",
+        "options": {
+            "A": "nslookup",
+            "B": "tracert",
+            "C": "ipconfig /displaydns",
+            "D": "net"
+        },
+        "correctAnswer": "A"
+    },
+    {
+        "question": "What service is provided by POP3?",
+        "options": {
+            "A": "Uses encryption to provide secure remote access to network devices and servers.",
+            "B": "Allows remote access to network devices and servers.",
+            "C": "An application that allows real-time chatting among remote users.",
+            "D": "Retrieves email from the server by downloading the email to the local mail application of the client."
+        },
+        "correctAnswer": "D"
+    },
+    {
+        "question": "Which networking model is being used when a student shares a folder directly with another?",
+        "options": {
+            "A": "client-based",
+            "B": "point-to-point",
+            "C": "master-slave",
+            "D": "peer-to-peer"
+        },
+        "correctAnswer": "D"
+    },
+    {
+        "question": "Which statement describes the characteristics of packet-filtering and stateful firewalls as they relate to the OSI model?",
+        "options": {
+            "A": "A packet-filtering firewall typically can filter up to the transport layer, whereas a stateful firewall can filter up to the session layer.",
+            "B": "A stateful firewall can filter application layer information, whereas a packet-filtering firewall cannot filter beyond the network layer.",
+            "C": "A packet-filtering firewall uses session layer information to track the state of a connection, whereas a stateful firewall uses application layer information to track the state of a connection.",
+            "D": "Both stateful and packet-filtering firewalls can filter at the application layer."
+        },
+        "correctAnswer": "A"
+    },
+    {
+        "question": "The city firewall is being flooded with traffic causing disruption. What type of attack is this?",
+        "options": {
+            "A": "DoS",
+            "B": "access",
+            "C": "Trojan horse",
+            "D": "reconnaissance"
+        },
+        "correctAnswer": "A"
+    },
+    {
+        "question": "A network administrator is issuing the login block-for command. What threat is being prevented?",
+        "options": {
+            "A": "an unidentified individual trying to access the network equipment room",
+            "B": "a worm attempting to access another part of the network",
+            "C": "a user trying to guess a password to access the router",
+            "D": "a device trying to inspect the traffic on a link"
+        },
+        "correctAnswer": "C"
+    },
+    {
+        "question": "Which approach best provides cost effective redundancy for the Internet connection?",
+        "options": {
+            "A": "Add multiple connections between the switches and the edge router.",
+            "B": "Add a second NIC to the web server.",
+            "C": "Add a connection to the Internet via a DSL line to another ISP.",
+            "D": "Add another web server to prepare failover support."
+        },
+        "correctAnswer": "C"
+    },
+    {
+        "question": "Only employees connected to IPv6 interfaces are having difficulty. What command verifies IPv6 routing?",
+        "options": {
+            "A": "show ip nat translations",
+            "B": "show interfaces",
+            "C": "show running-config",
+            "D": "copy running-config startup-config"
+        },
+        "correctAnswer": "C"
+    },
+    {
+        "question": "Two network engineers are discussing switching. What is key to cut-through switching?",
+        "options": {
+            "A": "Fragment-free switching is the typical cut-through method of switching.",
+            "B": "Packets can be relayed with errors when fast-forward switching is used.",
+            "C": "The fragment-free switching offers the lowest level of latency.",
+            "D": "Fast-forward switching can be viewed as a compromise between store-and-forward switching and fragment-free switching."
+        },
+        "correctAnswer": "B"
+    },
+    {
+        "question": "What happens when a switch receives a frame with bad CRC?",
+        "options": {
+            "A": "The switch floods the frame to all ports except the port through which the frame arrived to notify the hosts of the error.",
+            "B": "The switch places the new CRC value in the FCS field and forwards the frame.",
+            "C": "The switch drops the frame.",
+            "D": "The switch notifies the source of the bad frame."
+        },
+        "correctAnswer": "C"
+    }
+      
+
+]

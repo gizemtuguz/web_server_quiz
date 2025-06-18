@@ -7,11 +7,19 @@
 </head>
 <body>
   <div class="quiz-container">
-    <h1>Web Server Final Quiz</h1>
-    <div id="quiz-box">
+
+    <!-- Quiz Selection Screen -->
+    <div id="quiz-select-box">
+      <h1>Select a Quiz</h1>
+      <button onclick="startQuiz('quiz.json')">Module sonu Quiz</button>
+      <button onclick="startQuiz('final_quiz.json')">Final Quiz</button>
+    </div>
+
+    <!-- Main Quiz Area -->
+    <div id="quiz-box" class="hidden">
+      <h1>Web Server Final Quiz</h1>
       <div id="question"></div>
       <div id="options"></div>
-
       <div class="nav-buttons">
         <button id="shuffle-btn">🔀 Shuffle</button>
         <button id="prev-btn">⬅ Previous</button>
@@ -19,10 +27,11 @@
       </div>
     </div>
 
+    <!-- Result Box -->
     <div id="result-box" class="hidden">
       <h2>Quiz Completed!</h2>
       <p id="score-text"></p>
-      <button onclick="location.href='?q=1'">Restart</button>
+      <button onclick="location.href='index.html'">Back to Menu</button>
     </div>
   </div>
 
